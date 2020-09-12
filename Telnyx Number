@@ -1,0 +1,4 @@
+curl -X GET \
+  --header "Accept: application/json" \
+  --header "Authorization: Bearer KEY01748227DCCA8114C403A3E3231F6FDD_xW3Jg0FMoWM4xc75p70djq" \
+  --globoff "https://api.telnyx.com/v2/available_phone_numbers?filter[country_code]=us&filter[locality]=Chicago&filter[administrative_area]=IL&filter[limit]=2"
