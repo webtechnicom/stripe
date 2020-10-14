@@ -1,0 +1,426 @@
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$message = $twilio->messages
+                  ->create("+15558675310", // to
+                           [
+                               "body" => "This will be the body of the new message!",
+                               "from" => "+15017122661"
+                           ]
+                  );
+
+print($message->sid);
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "api_version": "2010-04-01",
+  "body": "This will be the body of the new message!",
+  "date_created": "Thu, 30 Jul 2015 20:12:31 +0000",
+  "date_sent": "Thu, 30 Jul 2015 20:12:33 +0000",
+  "date_updated": "Thu, 30 Jul 2015 20:12:33 +0000",
+  "direction": "outbound-api",
+  "error_code": null,
+  "error_message": null,
+  "from": "+14155552345",
+  "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "num_media": "0",
+  "num_segments": "1",
+  "price": null,
+  "price_unit": null,
+  "sid": "SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "sent",
+  "subresource_uris": {
+    "media": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json"
+  },
+  "to": "+14155552345",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$twilio->messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+       ->delete();
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Response;
+use Twilio\Security\RequestValidator;
+
+class TwilioRequestValidator
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+      // Be sure TWILIO_AUTH_TOKEN is set in your .env file.
+      // You can get your authentication token in your twilio console https://www.twilio.com/console
+      $requestValidator = new RequestValidator(env('TWILIO_AUTH_TOKEN'));
+
+      $requestData = $request->toArray();
+
+      // Switch to the body content if this is a JSON request.
+      if (array_key_exists('bodySHA256', $requestData)) {
+        $requestData = $request->getContent();
+      }
+
+      $isValid = $requestValidator->validate(
+        $request->header('X-Twilio-Signature'),
+        $request->fullUrl(),
+        $requestData
+      );
+
+      if ($isValid) {
+        return $next($request);
+      } else {
+        return new Response('You are not Twilio :(', 403);
+      }
+    }
+}
+<?php
+require __DIR__ . '/vendor/autoload.php';
+use Twilio\Rest\Client;
+
+// Your Account SID and Auth Token from twilio.com/console
+$account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+$auth_token = '4a48ef16988eca378188b06fd8d433e0';
+// In production, these should be environment variables. E.g.:
+// $auth_token = $_ENV["TWILIO_ACCOUNT_SID"]
+
+// A Twilio number you own with Voice capabilities
+$twilio_number = "+15017122661";
+
+// Where to make a voice call (your cell phone?)
+$to_number = "+15558675310";
+
+$client = new Client($account_sid, $auth_token);
+$client->account->calls->create(  
+    $to_number,
+    $twilio_number,
+    array(
+        "url" => "http://demo.twilio.com/docs/voice.xml"
+    )
+);
+<?php
+require __DIR__ . '/vendor/autoload.php';
+use Twilio\TwiML\VoiceResponse;
+
+// Start our TwiML response
+$response = new VoiceResponse;
+
+// Read a message aloud to the caller
+$response->say(
+    "Thank you for calling! Have a great day.", 
+    array("voice" => "alice")
+);
+
+echo $response;
+<?php
+require __DIR__ . '/vendor/autoload.php';
+use Twilio\TwiML\VoiceResponse;
+
+// Start our TwiML response
+$response = new VoiceResponse;
+
+// Read a message aloud to the caller
+$response->say(
+    "Thank you for calling! Have a great day.", 
+    array("voice" => "alice")
+);
+
+echo $response;
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Requests;
+use Illuminate\Http\Request;
+use Twilio\Twiml;
+
+class IvrController extends Controller
+{
+    public function __construct()
+    {
+        $this->_thankYouMessage = 'Thank you for calling the ET Phone Home' .
+            ' Service - the adventurous alien\'s first choice' .
+            ' in intergalactic travel.';
+
+    }
+
+    /**
+     * Responds with a welcome message with instructions
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showWelcome()
+    {
+        $response = new Twiml();
+        $gather = $response->gather(
+            [
+                'numDigits' => 1,
+                'action' => route('menu-response', [], false)
+            ]
+        );
+
+        $gather->say(
+            'Thanks for calling the E T Phone Home Service.' .
+            'Please press 1 for directions. Press 2 for a ' .
+            'list of planets to call.',
+            ['loop' => 3]
+        );
+
+        return $response;
+    }
+
+    /**
+     * Responds to selection of an option by the caller
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showMenuResponse(Request $request)
+    {
+        $selectedOption = $request->input('Digits');
+
+        switch ($selectedOption) {
+            case 1:
+                return $this->_getReturnInstructions();
+            case 2:
+                return $this->_getPlanetsMenu();
+        }
+
+        $response = new Twiml();
+        $response->say(
+            'Returning to the main menu',
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+        $response->redirect(route('welcome', [], false));
+
+        return $response;
+    }
+
+    /**
+     * Responds with a <Dial> to the caller's planet
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showPlanetConnection(Request $request)
+    {
+        $response = new Twiml();
+        $response->say(
+            $this->_thankYouMessage,
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+        $response->say(
+            "You'll be connected shortly to your planet",
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+
+        $planetNumbers = [
+            '2' => '+12024173378',
+            '3' => '+12027336386',
+            '4' => '+12027336637'
+        ];
+        $selectedOption = $request->input('Digits');
+
+        $planetNumberExists = isset($planetNumbers[$selectedOption]);
+
+        if ($planetNumberExists) {
+            $selectedNumber = $planetNumbers[$selectedOption];
+            $response->dial($selectedNumber);
+
+            return $response;
+        } else {
+            $errorResponse = new Twiml();
+            $errorResponse->say(
+                'Returning to the main menu',
+                ['voice' => 'Alice', 'language' => 'en-GB']
+            );
+            $errorResponse->redirect(route('welcome', [], false));
+
+            return $errorResponse;
+        }
+
+    }
+
+
+    /**
+     * Responds with instructions to mothership
+     * @return Services_Twilio_Twiml
+     */
+    private function _getReturnInstructions()
+    {
+        $response = new Twiml();
+        $response->say(
+            'To get to your extraction point, get on your bike and go down the' .
+            ' street. Then Left down an alley. Avoid the police cars. Turn left' .
+            ' into an unfinished housing development. Fly over the roadblock. Go' .
+            ' passed the moon. Soon after you will see your mother ship.',
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+        $response->say(
+            $this->_thankYouMessage,
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+
+        $response->hangup();
+
+        return $response;
+    }
+
+    /**
+     * Responds with instructions to choose a planet
+     * @return Services_Twilio_Twiml
+     */
+    private function _getPlanetsMenu()
+    {
+        $response = new Twiml();
+        $gather = $response->gather(
+            ['numDigits' => '1', 'action' => route('planet-connection', [], false)]
+        );
+        $gather->say(
+            'To call the planet Brodo Asogi, press 2. To call the planet' .
+            ' Dugobah, press 3. To call an Oober asteroid to your location,' .
+            ' press 4. To go back to the main menu, press the star key',
+            ['voice' => 'Alice', 'language' => 'en-GB']
+        );
+
+        return $response;
+    }
+}
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Agent;
+use Twilio\Twiml;
+
+class ExtensionController extends Controller
+{
+    /**
+     * Responds with a <Dial> to the caller's planet
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showExtensionConnection(Request $request)
+    {
+        $selectedOption = $request->input('Digits');
+
+        try {
+            $agent = $this->_getAgentForDigit($selectedOption);
+        }
+        catch (ModelNotFoundException $e){
+            return redirect()->route('main-menu-redirect');
+        }
+
+        $numberToDial = $agent->phone_number;
+
+        $response = new Twiml();
+        $response->say(
+            "You'll be connected shortly to your planet. " .
+            $this->_thankYouMessage,
+            ['voice' => 'alice', 'language' => 'en-GB']
+        );
+
+        $dialCommand = $response->dial(
+            ['action' => route('agent-voicemail', ['agent' => $agent->id], false),
+             'method' => 'POST']
+        );
+        $dialCommand->number(
+            $numberToDial,
+            ['url' => route('screen-call', [], false)]
+        );
+
+        return $response;
+    }
+
+    private function _getAgentForDigit($digit)
+    {
+        $planetExtensions = [
+            '2' => 'Brodo',
+            '3' => 'Dagobah',
+            '4' => 'Oober'
+        ];
+        $planetExtensionExists = isset($planetExtensions[$digit]);
+
+        if ($planetExtensionExists) {
+            $agent = Agent::where(
+                'extension', '=', $planetExtensions[$digit]
+            )->firstOrFail();
+
+            return $agent;
+        } else {
+            throw new ModelNotFoundException;
+        }
+    }
+}
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Twilio\Jwt\ClientToken;
+
+class TokenController extends Controller
+{
+    public function token($agentId, ClientToken $capability)
+    {
+        $capability->allowClientIncoming($agentId);
+
+        $token = $capability->generateToken();
+        return response()->json(['token' => $token, 'agentId' => $agentId]);
+    }
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$call = $twilio->calls
+               ->create("sip:UserA@Trunk1.sip.us1.twilio.com", // to
+                        "+15017122661", // from
+                        [
+                            "twiml" => "<Response><Say>Hello and thanks for connecting to your SIP network!</Say></Response>"
+                        ]
+               );
+
+print($call->sid);
