@@ -1,0 +1,488 @@
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$call = $twilio->calls
+               ->create("sip:sip.webtechnicom.net", // to
+                        "+17708008448", // from
+                        [
+                            "twiml" => "<Response><Say>Hello and thanks for connecting to your SIP network!</Say></Response>"
+                        ]
+               );
+
+print($call->sid);
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "annotation": null,
+  "answered_by": null,
+  "api_version": "2010-04-01",
+  "caller_name": null,
+  "date_created": "Tue, 31 Aug 2010 20:36:28 +0000",
+  "date_updated": "Tue, 31 Aug 2010 20:36:44 +0000",
+  "direction": "inbound",
+  "duration": "15",
+  "end_time": "Tue, 31 Aug 2010 20:36:44 +0000",
+  "forwarded_from": "+17708008448",
+  "from": "+15017122661",
+  "from_formatted": "(501) 712-2661",
+  "group_sid": null,
+  "parent_call_sid": null,
+  "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "price": "-0.03000",
+  "price_unit": "USD",
+  "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "start_time": "Tue, 31 Aug 2010 20:36:29 +0000",
+  "status": "completed",
+  "subresource_uris": {
+    "notifications": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json",
+    "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json",
+    "feedback": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Feedback.json",
+    "feedback_summaries": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/FeedbackSummary.json",
+    "payments": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Payments.json"
+  },
+  "to": "sip:sip.webtechnicom.net",
+  "to_formatted": "sip:sip.webtechnicom.net",
+  "trunk_sid": null,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "queue_time": "1000"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$available_phone_number_country = $twilio->availablePhoneNumbers("US")
+                                         ->fetch();
+
+print($available_phone_number_country->countryCode);
+{
+  "beta": null,
+  "country": "United States",
+  "country_code": "US",
+  "subresource_uris": {
+    "local": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json",
+    "toll_free": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/TollFree.json"
+  },
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US.json"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["areaCode" => 510], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+{
+  "available_phone_numbers": [
+    {
+      "address_requirements": "none",
+      "beta": false,
+      "capabilities": {
+        "mms": true,
+        "sms": false,
+        "voice": true
+      },
+      "friendly_name": "(808) 925-1571",
+      "iso_country": "US",
+      "lata": "834",
+      "latitude": "19.720000",
+      "locality": "Hilo",
+      "longitude": "-155.090000",
+      "phone_number": "+18089251571",
+      "postal_code": "96720",
+      "rate_center": "HILO",
+      "region": "HI"
+    }
+  ],
+  "end": 1,
+  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=50",
+  "num_pages": 1,
+  "page": 0,
+  "page_size": 50,
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "start": 0,
+  "total": 1,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=1"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["areaCode" => 510], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+{
+  "available_phone_numbers": [
+    {
+      "address_requirements": "none",
+      "beta": false,
+      "capabilities": {
+        "mms": true,
+        "sms": false,
+        "voice": true
+      },
+      "friendly_name": "(808) 925-1571",
+      "iso_country": "US",
+      "lata": "834",
+      "latitude": "19.720000",
+      "locality": "Hilo",
+      "longitude": "-155.090000",
+      "phone_number": "+18089251571",
+      "postal_code": "96720",
+      "rate_center": "HILO",
+      "region": "HI"
+    }
+  ],
+  "end": 1,
+  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=50",
+  "num_pages": 1,
+  "page": 0,
+  "page_size": 50,
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "start": 0,
+  "total": 1,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=1"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["contains" => "510555****"], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+{
+  "available_phone_numbers": [
+    {
+      "address_requirements": "none",
+      "beta": false,
+      "capabilities": {
+        "mms": true,
+        "sms": false,
+        "voice": true
+      },
+      "friendly_name": "(808) 925-1571",
+      "iso_country": "US",
+      "lata": "834",
+      "latitude": "19.720000",
+      "locality": "Hilo",
+      "longitude": "-155.090000",
+      "phone_number": "+18089251571",
+      "postal_code": "96720",
+      "rate_center": "HILO",
+      "region": "HI"
+    }
+  ],
+  "end": 1,
+  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=50",
+  "num_pages": 1,
+  "page": 0,
+  "page_size": 50,
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "start": 0,
+  "total": 1,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=1"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["contains" => "STORM"], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+{
+  "available_phone_numbers": [
+    {
+      "address_requirements": "none",
+      "beta": false,
+      "capabilities": {
+        "mms": true,
+        "sms": false,
+        "voice": true
+      },
+      "friendly_name": "(808) 925-1571",
+      "iso_country": "US",
+      "lata": "834",
+      "latitude": "19.720000",
+      "locality": "Hilo",
+      "longitude": "-155.090000",
+      "phone_number": "+18089251571",
+      "postal_code": "96720",
+      "rate_center": "HILO",
+      "region": "HI"
+    }
+  ],
+  "end": 1,
+  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=50",
+  "num_pages": 1,
+  "page": 0,
+  "page_size": 50,
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=50&Page=0",
+  "start": 0,
+  "total": 1,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/Local.json?PageSize=1"
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["inRegion" => "AR"], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("GB")
+                ->local
+                ->read(["contains" => "+4420"], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("GB")
+                ->local
+                ->read(["smsEnabled" => True, "voiceEnabled" => True], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read([
+                           "nearLatLong" => "37.840699,-122.461853",
+                           "distance" => 50,
+                           "contains" => "555",
+                           "inRegion" => "CA"
+                       ],
+                       20
+                );
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["areaCode" => 510], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read(["areaCode" => 510], 20);
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$local = $twilio->availablePhoneNumbers("US")
+                ->local
+                ->read([
+                           "nearLatLong" => "37.840699,-122.461853",
+                           "distance" => 50,
+                           "contains" => "555",
+                           "inRegion" => "CA"
+                       ],
+                       20
+                );
+
+foreach ($local as $record) {
+    print($record->friendlyName);
+}
+<?php
+
+// Update the path below to your autoload.php,
+// see https://getcomposer.org/doc/01-basic-usage.md
+require_once '/path/to/vendor/autoload.php';
+
+use Twilio\Rest\Client;
+
+// Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
+$sid    = "ACcc67c045cffaea7653952cf73b7443a5";
+$token  = "4a48ef16988eca378188b06fd8d433e0";
+$twilio = new Client($sid, $token);
+
+$country = $twilio->pricing->v1->phoneNumbers
+                               ->countries("US")
+                               ->fetch();
+
+print($country->country);
+<?php
+
