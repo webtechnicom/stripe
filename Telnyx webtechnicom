@@ -1,0 +1,6114 @@
+Welcome to Node.js v12.13.1.
+Type ".help" for more information.
+> curl -X POST \
+Thrown:
+curl -X POST \
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{"name": "Summer Campaign"}' \
+Thrown:
+  --data '{"name": "Summer Campaign"}' \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/messaging_profiles
+... curl -X GET \
+Thrown:
+curl -X GET \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --globoff "https://api.telnyx.com/v2/available_phone_numbers?filter[features][]=sms&filter[features][]=mms"
+Thrown:
+  --globoff "https://api.telnyx.com/v2/available_phone_numbers?filter[features][]=sms&filter[features][]=mms"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{
+Thrown:
+  --data '{
+         ^^
+
+SyntaxError: Invalid or unexpected token
+>     "phone_numbers": [{"phone_number": "+18665552368"}]
+Thrown:
+    "phone_numbers": [{"phone_number": "+18665552368"}]
+                   ^
+
+SyntaxError: Unexpected token ':'
+>   }' \
+Thrown:
+  }' \
+  ^
+
+SyntaxError: Unexpected token '}'
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{
+Thrown:
+  --data '{
+         ^^
+
+SyntaxError: Invalid or unexpected token
+>     "from": "+18665552368",
+Thrown:
+    "from": "+18665552368",
+          ^
+
+SyntaxError: Unexpected token ':'
+>     "to": "+18665552367",
+Thrown:
+    "to": "+18665552367",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "text": "Hello, World!"
+Thrown:
+    "text": "Hello, World!"
+          ^
+
+SyntaxError: Unexpected token ':'
+>   }' \
+Thrown:
+  }' \
+  ^
+
+SyntaxError: Unexpected token '}'
+...   "data": [
+...     {
+.....       "best_effort": false,
+.....       "cost_information": {
+.......         "currency": "USD",
+.......         "monthly_cost": "1.00000",
+.......         "upfront_cost": "1.00000"
+.......       },
+.....       "features": [
+.....         {
+.......           "name": "fax"
+.......         },
+.....         {
+.......           "name": "voice"
+.......         },
+.....         {
+.......           "name": "sms"
+.......         }
+.....       ],
+.....       "phone_number": "+17732490564",
+.....       "record_type": "available_phone_number",
+.....       "region_information": [
+.....         {
+.......           "region_name": "US",
+.......           "region_type": "country_code"
+.......         },
+.....         {
+.......           "region_name": "IL",
+.......           "region_type": "state"
+.......         },
+.....         {
+.......           "region_name": "CHICAGO ZONE 11",
+.......           "region_type": "rate_center"
+.......         }
+.....       ],
+.....       "reservable": false,
+.....       "vanity_format": null
+.....     },
+...     {
+.....       "best_effort": false,
+.....       "cost_information": {
+.......         "currency": "USD",
+.......         "monthly_cost": "1.00000",
+.......         "upfront_cost": "1.00000"
+.......       },
+.....       "features": [
+.....         {
+.......           "name": "fax"
+.......         },
+.....         {
+.......           "name": "voice"
+.......         },
+.....         {
+.......           "name": "sms"
+.......         }
+.....       ],
+.....       "phone_number": "+17732490565",
+.....       "record_type": "available_phone_number",
+.....       "region_information": [
+.....         {
+.......           "region_name": "US",
+.......           "region_type": "country_code"
+.......         },
+.....         {
+.......           "region_name": "IL",
+.......           "region_type": "state"
+.......         },
+.....         {
+.......           "region_name": "CHICAGO ZONE 11",
+.......           "region_type": "rate_center"
+.......         }
+.....       ],
+.....       "reservable": false,
+.....       "vanity_format": null
+.....     }
+...   ],
+...   "metadata": {
+.....     "best_effort_results": 0,
+.....     "total_results": 2
+.....   },
+...   "url": "/v2/available_phone_numbers"
+... }
+{
+  data: [
+    {
+      best_effort: false,
+      cost_information: [Object],
+      features: [Array],
+      phone_number: '+17732490564',
+      record_type: 'available_phone_number',
+      region_information: [Array],
+      reservable: false,
+      vanity_format: null
+    },
+    {
+      best_effort: false,
+      cost_information: [Object],
+      features: [Array],
+      phone_number: '+17732490565',
+      record_type: 'available_phone_number',
+      region_information: [Array],
+      reservable: false,
+      vanity_format: null
+    }
+  ],
+  metadata: { best_effort_results: 0, total_results: 2 },
+  url: '/v2/available_phone_numbers'
+}
+> const telnyx = require("telnyx")("YOUR_API_KEY")
+Thrown:
+Error: Cannot find module 'telnyx'
+Require stack:
+- <repl>
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '<repl>' ]
+}
+>
+> const { data: numberList } = await telnyx.availablePhoneNumber.list({
+Thrown:
+const { data: numberList } = await telnyx.availablePhoneNumber.list({
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter:{"country_code": "US", "national_destination_code": "312", "limit": 2}
+Thrown:
+  filter:{"country_code": "US", "national_destination_code": "312", "limit": 2}
+                        ^
+
+SyntaxError: Unexpected token ':'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data: numberList } = await telnyx.availablePhoneNumber.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data: numberList } = await telnyx.availablePhoneNumber.list({
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter:{"country_code": "US", "national_destination_code": "312", "starts_with": "359", "limit": 2}
+Thrown:
+  filter:{"country_code": "US", "national_destination_code": "312", "starts_with": "359", "limit": 2}
+                        ^
+
+SyntaxError: Unexpected token ':'
+>
+> const { data: numberList } = await telnyx.availablePhoneNumber.list({
+Thrown:t telnyx = require("telnyx")("YOUR_API_KEY")
+const { data: numberList } = await telnyx.availablePhoneNumber.list({
+                             ^^^^^
+SyntaxError: Unexpected token '}'
+SyntaxError: await is only valid in async function
+>   filter:{"country_code": "US", "locality": "Chicago", "administrative_area": "IL", "limit": 2}
+Thrown:
+  filter:{"country_code": "US", "locality": "Chicago", "administrative_area": "IL", "limit": 2}
+                        ^
+
+SyntaxError: Unexpected token ':'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data: numberList } = await telnyx.availablePhoneNumber.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data: numberList } = await telnyx.availablePhoneNumber.list({
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter:{"country_code": "US", "administrative_area": "IL", "limit": 2}
+Thrown:
+  filter:{"country_code": "US", "administrative_area": "IL", "limit": 2}
+                        ^
+
+SyntaxError: Unexpected token ':'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+> const telnyx = require("telnyx")("YOUR_API_KEY")
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data: numberList } = await telnyx.availablePhoneNumber.list({
+Thrown:
+const { data: numberList } = await telnyx.availablePhoneNumber.list({
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter:{"country_code": "US", "number_type": "toll-free", "national_destination_code": "877", "limit": 2}
+Thrown:
+  filter:{"country_code": "US", "number_type": "toll-free", "national_destination_code": "877", "limit": 2}
+                        ^
+
+SyntaxError: Unexpected token ':'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "connection_id": null,
+...   "created_at": "2018-11-19T15:55:00.319129+00:00",
+...   "customer_reference": null,
+...   "id": "1234-56789-6789-5678",
+...   "messaging_profile_id": null,
+...   "phone_numbers": [
+...     {
+.....       "id": "123cvgbh-fvgbhn-fvgbh-vgbh",
+.....       "phone_number": "+15555555555",
+.....       "record_type": "number_order_phone_number",
+.....       "regulatory_requirements": [],
+.....       "requirements_met": true,
+.....       "status": "success"
+.....     }
+...   ],
+...   "phone_numbers_count": 1,
+...   "record_type": "number_order",
+...   "requirements_met": true,
+...   "status": "success",
+...   "updated_at": "2018-11-19T15:55:00.319129+00:00"
+... }
+{
+  connection_id: null,
+  created_at: '2018-11-19T15:55:00.319129+00:00',
+  customer_reference: null,
+  id: '1234-56789-6789-5678',
+  messaging_profile_id: null,
+  phone_numbers: [
+    {
+      id: '123cvgbh-fvgbhn-fvgbh-vgbh',
+      phone_number: '+15555555555',
+      record_type: 'number_order_phone_number',
+      regulatory_requirements: [],
+      requirements_met: true,
+      status: 'success'
+    }
+  ],
+  phone_numbers_count: 1,
+  record_type: 'number_order',
+  requirements_met: true,
+  status: 'success',
+  updated_at: '2018-11-19T15:55:00.319129+00:00'
+}
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumber.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumber.list({
+                                         ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "coutry_code": "US",
+Thrown:
+      "coutry_code": "US",
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       "locality": "Chicago",
+Thrown:
+      "locality": "Chicago",
+                ^
+
+SyntaxError: Unexpected token ':'
+>       "administrative_area": "IL",
+Thrown:
+      "administrative_area": "IL",
+                           ^
+
+SyntaxError: Unexpected token ':'
+>       "features": ["sms"],
+Thrown:
+      "features": ["sms"],
+                ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": [
+...     {
+.....       "best_effort": false,
+.....       "cost_information": {
+.......         "currency": "USD",
+.......         "monthly_cost": "1.00000",
+.......         "upfront_cost": "1.00000"
+.......       },
+.....       "features": [
+.....         {
+.......           "name": "fax"
+.......         },
+.....         {
+.......           "name": "voice"
+.......         },
+.....         {
+.......           "name": "sms"
+.......         }
+.....       ],
+.....       "phone_number": "+18728880024",
+.....       "record_type": "available_phone_number",
+.....       "region_information": [
+.....         {
+.......           "region_name": "US",
+.......           "region_type": "country_code"
+.......         },
+.....         {
+.......           "region_name": "IL",
+.......           "region_type": "state"
+.......         },
+.....         {
+.......           "region_name": "CHICAGO ZONE 02",
+.......           "region_type": "rate_center"
+.......         }
+.....       ],
+.....       "reservable": false,
+.....       "vanity_format": null
+.....     },
+...     {
+.....       "best_effort": false,
+.....       "cost_information": {
+.......         "currency": "USD",
+.......         "monthly_cost": "1.00000",
+.......         "upfront_cost": "1.00000"
+.......       },
+.....       "features": [
+.....         {
+.......           "name": "fax"
+.......         },
+.....         {
+.......           "name": "voice"
+.......         },
+.....         {
+.......           "name": "sms"
+.......         }
+.....       ],
+.....       "phone_number": "+18728880026",
+.....       "record_type": "available_phone_number",
+.....       "region_information": [
+.....         {
+.......           "region_name": "US",
+.......           "region_type": "country_code"
+.......         },
+.....         {
+.......           "region_name": "IL",
+.......           "region_type": "state"
+.......         },
+.....         {
+.......           "region_name": "CHICAGO ZONE 02",
+.......           "region_type": "rate_center"
+.......         }
+.....       ],
+.....       "reservable": false,
+.....       "vanity_format": null
+.....     }
+...   ],
+...   "metadata": {
+.....     "best_effort_results": 0,
+.....     "total_results": 2
+.....   },
+...   "url": "/v2/available_phone_numbers"
+... }
+{
+  data: [
+    {
+      best_effort: false,
+      cost_information: [Object],
+      features: [Array],
+      phone_number: '+18728880024',
+      record_type: 'available_phone_number',
+      region_information: [Array],
+      reservable: false,
+      vanity_format: null
+    },
+    {
+      best_effort: false,
+      cost_information: [Object],
+      features: [Array],
+      phone_number: '+18728880026',
+      record_type: 'available_phone_number',
+      region_information: [Array],
+      reservable: false,
+      vanity_format: null
+    }
+  ],
+  metadata: { best_effort_results: 0, total_results: 2 },
+  url: '/v2/available_phone_numbers'
+}
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                         ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "country_code": "US",
+Thrown:
+      "country_code": "US",
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "national_destination_code":
+Thrown:
+      "national_destination_code":
+                                 ^
+
+SyntaxError: Unexpected token ':'
+>       "877", "phone_number": {"starts_with": "***2&&"},
+Thrown:
+      "877", "phone_number": {"starts_with": "***2&&"},
+                           ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                         ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "country_code": "US",
+Thrown:
+      "country_code": "US",
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "locality": "Chicago",
+Thrown:
+      "locality": "Chicago",
+                ^
+
+SyntaxError: Unexpected token ':'
+>       "phone_number": {"ends_with": "ABC*"},
+Thrown:
+      "phone_number": {"ends_with": "ABC*"},
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data: availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data: availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                        ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "country_code": "US",
+Thrown:
+      "country_code": "US",
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "national_destination_code": "312",
+Thrown:
+      "national_destination_code": "312",
+                                 ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                         ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "features": ["sms"],
+Thrown:
+      "features": ["sms"],
+                ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                         ^^^^^
+
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "features": ["sms", "mms"],
+Thrown:
+      "features": ["sms", "mms"],
+                ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+>
+> const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data : availablePhoneNumbers } = await telnyx.availablePhoneNumbers.list({
+                                         ^^^^^
+SyntaxError: Unexpected token '}'
+SyntaxError: await is only valid in async function
+>     filter: {
+...       "country_code": "US",
+Thrown:
+      "country_code": "US",
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "national_destination_code": "312",
+Thrown:
+      "national_destination_code": "312",
+                                 ^
+
+SyntaxError: Unexpected token ':'
+>       "best_effort": False,
+Thrown:
+      "best_effort": False,
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       "limit": 2
+Thrown:
+      "limit": 2
+             ^
+
+SyntaxError: Unexpected token ':'
+>     }
+Thrown:
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+> })
+Thrown:
+})
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In Node 10
+undefinedor: Identifier 'telnyx' has already been declared
+> const { data: numberInfo } = await telnyx.numberLookup.retrieve(
+Thrown:
+const { data: numberInfo } = await telnyx.numberLookup.retrieve(
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   '+18665552368'
+'+18665552368'
+> );
+Thrown:
+);
+^
+
+SyntaxError: Unexpected token ')'
+>
+> // In other environments
+undefined
+> telnyx.numberLookup.retrieve(
+...   '+18665552368'
+... ).then(function(response){
+.....   const numberInfo = response.data; // asynchronously handled
+...   "data": {
+.....     "caller_name": {
+.......       "caller_name": "TELNYX LLC",
+.......       "error_code": "10001"
+.......     },
+.....     "carrier": {
+.......       "error_code": null,
+.......       "mobile_country_code": "US",
+.......       "mobile_network_code": 866,
+.......       "name": "Telnyx/4",
+.......       "type": "voip"
+.......     },
+.....     "country_code": "US",
+.....     "fraud": null,
+.....     "national_format": "(0312) 945-7420",
+.....     "phone_number": "+13129457420",
+.....     "portability": {
+.......       "altspid": "073H",
+.......       "altspid_carrier_name": "Telnyx/4",
+.......       "altspid_carrier_type": "3",
+.......       "city": "WAUKEGAN",
+.......       "line_type": "voip",
+.......       "lrn": "2245701999",
+.......       "ocn": "073H",
+.......       "ported_date": "2017-10-20",
+.......       "ported_status": "Y",
+.......       "spid": "073H",
+.......       "spid_carrier_name": "Telnyx/4",
+.......       "spid_carrier_type": "3",
+.......       "state": "Illinois"
+.......     },
+.....     "record_type": "number_lookup"
+.....   }
+... }
+{
+  data: {
+    caller_name: { caller_name: 'TELNYX LLC', error_code: '10001' },
+    carrier: {
+      error_code: null,
+      mobile_country_code: 'US',
+      mobile_network_code: 866,
+      name: 'Telnyx/4',
+      type: 'voip'
+    },
+    country_code: 'US',
+    fraud: null,
+    national_format: '(0312) 945-7420',
+    phone_number: '+13129457420',
+    portability: {
+      altspid: '073H',
+      altspid_carrier_name: 'Telnyx/4',
+      altspid_carrier_type: '3',
+      city: 'WAUKEGAN',
+      line_type: 'voip',
+      lrn: '2245701999',
+      ocn: '073H',
+      ported_date: '2017-10-20',
+      ported_status: 'Y',
+      spid: '073H',
+      spid_carrier_name: 'Telnyx/4',
+      spid_carrier_type: '3',
+      state: 'Illinois'
+    },
+    record_type: 'number_lookup'
+  }
+}
+>
+> // In Node 10
+undefinedor: Identifier 'telnyx' has already been declared
+> const { data: numberInfo } = await telnyx.numberLookup.retrieve(
+Thrown:
+const { data: numberInfo } = await telnyx.numberLookup.retrieve(
+                             ^^^^^
+
+SyntaxError: await is only valid in async function
+>   '+18665552368',
+...   {
+...     type: ["caller-name", "carrier"]
+...   }
+{ type: [ 'caller-name', 'carrier' ] }
+> );
+Thrown:
+);
+^
+
+SyntaxError: Unexpected token ')'
+>
+> // In other environments
+undefined
+> telnyx.numberLookup.retrieve(
+...   '+18665552368',
+...   {
+.....     type: ["caller-name", "carrier"]
+.....   }
+... ).then(function(response){
+.....   const numberInfo = response.data; // asynchronously handled
+>
+> {
+...   "data": {
+.....     "channels": 7,
+.....     "record_type": "inbound_channels"
+.....   }
+... }
+{ data: { channels: 7, record_type: 'inbound_channels' } }
+>
+> const { data: phoneNumbers.inboundChannels } = await telnyx.phoneNumbers.inboundChannels.retrieve();
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data: phoneNumbers.inboundChannels } = await telnyx.phoneNumbers.inboundChannels.retrieve();
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Illegal property in declaration context
+> await phoneNumbers.inboundChannels.update({"channels":7});
+Thrown:
+await phoneNumbers.inboundChannels.update({"channels":7});
+^^^^^
+
+SyntaxError: await is only valid in async function
+...   "data": {
+.....     "channels": 7,
+.....     "record_type": "inbound_channels"
+.....   }
+... }
+{ data: { channels: 7, record_type: 'inbound_channels' } }
+...   "data": [
+...     {
+.....       "billing_group_id": "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+.....       "call_forwarding_enabled": true,
+.....       "call_recording_enabled": true,
+.....       "caller_id_name_enabled": true,
+.....       "cnam_listing_enabled": true,
+.....       "connection_id": "1293384261075731499",
+.....       "connection_name": "connection-name",
+.....       "created_at": "2019-10-23T18:10:00.000Z",
+.....       "emergency_address_id": "1315261609962112019",
+.....       "emergency_enabled": true,
+.....       "external_pin": "1234",
+.....       "id": "1293384261075731499",
+.....       "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600000000",
+.....       "messaging_profile_name": "regional-customers",
+.....       "phone_number": "+19705555098",
+.....       "purchased_at": "2019-10-23T18:10:00.000Z",
+.....       "record_type": "phone_number",
+.....       "status": "active",
+.....       "t38_fax_gateway_enabled": true,
+.....       "tags": [
+.....         "tag_1",
+.....         "tag_2"
+.....       ],
+.....       "updated_at": "2019-10-24T18:10:00.000Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+  "data": [
+        ^
+
+SyntaxError: Unexpected token ':'
+>
+> {
+...   "data": {
+.....     "billing_group_id": "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+.....     "call_forwarding_enabled": true,
+.....     "call_recording_enabled": true,
+.....     "caller_id_name_enabled": true,
+.....     "cnam_listing_enabled": true,
+.....     "connection_id": "1293384261075731499",
+.....     "connection_name": "connection-name",
+.....     "created_at": "2019-10-23T18:10:00.000Z",
+.....     "emergency_address_id": "1315261609962112019",
+.....     "emergency_enabled": true,
+.....     "external_pin": "1234",
+.....     "id": "1293384261075731499",
+.....     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600000000",
+.....     "messaging_profile_name": "regional-customers",
+.....     "phone_number": "+19705555098",
+.....     "purchased_at": "2019-10-23T18:10:00.000Z",
+.....     "record_type": "phone_number",
+.....     "status": "active",
+.....     "t38_fax_gateway_enabled": true,
+.....     "tags": [
+.....       "tag_1",
+.....       "tag_2"
+.....     ],
+.....     "updated_at": "2019-10-24T18:10:00.000Z"
+.....   }
+... }const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+> // for node 10
+undefined
+> const { data: phoneNumber } = await telnyx.phoneNumbers.update(
+Thrown:
+const { data: phoneNumber } = await telnyx.phoneNumbers.update(
+                              ^^^^^
+
+SyntaxError: await is only valid in async function
+>   '86f58db9-0fe3-4adc-9d1f-46e66e6e9323',
+...   { tags: 'region_5' }
+{ tags: 'region_5' }
+> );
+Thrown:
+);
+^
+
+SyntaxError: Unexpected token ')'
+>
+> // In other environments
+undefined
+> telnyx.phoneNumbers.update(
+...   '86f58db9-0fe3-4adc-9d1f-46e66e6e9323',
+...   { tags: 'region_5' }
+... ).then(function(response){
+.....   const phoneNumber = response.data; // asynchronously handled
+..... });
+Thrown:
+ReferenceError: telnyx is not defined
+> {
+...   "data": {
+.....     "billing_group_id": "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+.....     "call_forwarding_enabled": true,
+.....     "call_recording_enabled": true,
+.....     "caller_id_name_enabled": true,
+.....     "cnam_listing_enabled": true,
+.....     "connection_id": "1293384261075731499",
+.....     "connection_name": "connection-name",
+.....     "created_at": "2019-10-23T18:10:00.000Z",
+.....     "emergency_address_id": "1315261609962112019",
+.....     "emergency_enabled": true,
+.....     "external_pin": "1234",
+.....     "id": "1293384261075731499",
+.....     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600000000",
+.....     "messaging_profile_name": "regional-customers",
+.....     "phone_number": "+19705555098",
+.....     "purchased_at": "2019-10-23T18:10:00.000Z",
+.....     "record_type": "phone_number",
+.....     "status": "active",
+.....     "t38_fax_gateway_enabled": true,
+.....     "tags": [
+.....       "tag_1",
+.....       "tag_2"
+.....     ],
+.....     "updated_at": "2019-10-24T18:10:00.000Z"
+.....   }
+... }
+{
+  data: {
+    billing_group_id: '86f58db9-0fe3-4adc-9d1f-46e66e6e9323',
+    call_forwarding_enabled: true,
+    call_recording_enabled: true,
+    caller_id_name_enabled: true,
+    cnam_listing_enabled: true,
+    connection_id: '1293384261075731499',
+    connection_name: 'connection-name',
+    created_at: '2019-10-23T18:10:00.000Z',
+    emergency_address_id: '1315261609962112019',
+    emergency_enabled: true,
+    external_pin: '1234',
+    id: '1293384261075731499',
+    messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600000000',
+    messaging_profile_name: 'regional-customers',
+    phone_number: '+19705555098',
+    purchased_at: '2019-10-23T18:10:00.000Z',
+    record_type: 'phone_number',
+    status: 'active',
+    t38_fax_gateway_enabled: true,
+    tags: [ 'tag_1', 'tag_2' ],
+    updated_at: '2019-10-24T18:10:00.000Z'
+  }
+}
+> // for node 10
+undefined
+> const { data: phoneNumber } = await telnyx.phoneNumbers.del('86f58db9-0fe3-4adc-9d1f-46e66e6e9323');
+Thrown:
+const { data: phoneNumber } = await telnyx.phoneNumbers.del('86f58db9-0fe3-4adc-9d1f-46e66e6e9323');
+                              ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.phoneNumbers.del('86f58db9-0fe3-4adc-9d1f-46e66e6e9323').then(function(response){
+...   const phoneNumber = response.data; // asynchronously handled
+...   "data": {
+.....     "billing_group_id": "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+.....     "call_forwarding_enabled": true,
+.....     "call_recording_enabled": true,
+.....     "caller_id_name_enabled": true,
+.....     "cnam_listing_enabled": true,
+.....     "connection_id": "1293384261075731499",
+.....     "connection_name": "connection-name",
+.....     "created_at": "2019-10-23T18:10:00.000Z",
+.....     "emergency_address_id": "1315261609962112019",
+.....     "emergency_enabled": true,
+.....     "external_pin": "1234",
+.....     "id": "1293384261075731499",
+.....     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600000000",
+.....     "messaging_profile_name": "regional-customers",
+.....     "phone_number": "+19705555098",
+.....     "purchased_at": "2019-10-23T18:10:00.000Z",
+.....     "record_type": "phone_number",
+.....     "status": "active",
+.....     "t38_fax_gateway_enabled": true,
+.....     "tags": [
+.....       "tag_1",
+.....       "tag_2"
+.....     ],
+.....     "updated_at": "2019-10-24T18:10:00.000Z"
+.....   }
+... }
+{
+  data: {
+    billing_group_id: '86f58db9-0fe3-4adc-9d1f-46e66e6e9323',
+    call_forwarding_enabled: true,
+    call_recording_enabled: true,
+    caller_id_name_enabled: true,
+    cnam_listing_enabled: true,
+    connection_id: '1293384261075731499',
+    connection_name: 'connection-name',
+    created_at: '2019-10-23T18:10:00.000Z',
+    emergency_address_id: '1315261609962112019',
+    emergency_enabled: true,
+    external_pin: '1234',
+    id: '1293384261075731499',
+    messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600000000',
+    messaging_profile_name: 'regional-customers',
+    phone_number: '+19705555098',
+    purchased_at: '2019-10-23T18:10:00.000Z',
+    record_type: 'phone_number',
+    status: 'active',
+    t38_fax_gateway_enabled: true,
+    tags: [ 'tag_1', 'tag_2' ],
+    updated_at: '2019-10-24T18:10:00.000Z'
+  }
+}
+...   "data": {
+.....     "call_forwarding": {
+.......       "call_forwarding_enabled": true,
+.......       "forwarding_type": "always",
+.......       "forwards_to": "+13035559123"
+.......     },
+.....     "call_recording": {
+.......       "inbound_call_recording_channels": "single",
+.......       "inbound_call_recording_enabled": true,
+.......       "inbound_call_recording_format": "wav"
+.......     },
+.....     "cnam_listing": {
+.......       "cnam_listing_details": "example",
+.......       "cnam_listing_enabled": true
+.......     },
+.....     "connection_id": "1d0e6cb8-8668-462e-94c6-49ae0f0ed48b",
+.....     "emergency": {
+.......       "emergency_address_id": "1315261609962112019",
+.......       "emergency_enabled": true
+.......     },
+.....     "id": "1293384261075731499",
+.....     "media_features": {
+.......       "accept_any_rtp_packets_enabled": true,
+.......       "media_handling_mode": "default",
+.......       "rtp_auto_adjust_enabled": true,
+.......       "t38_fax_gateway_enabled": true
+.......     },
+.....     "record_type": "voice_settings",
+.....     "tech_prefix_enabled": false,
+.....     "translated_number": "+13035559999",
+.....     "usage_payment_method": "pay-per-minute"
+.....   }
+... }
+{
+  data: {
+    call_forwarding: {
+      call_forwarding_enabled: true,
+      forwarding_type: 'always',
+      forwards_to: '+13035559123'
+    },
+    call_recording: {
+      inbound_call_recording_channels: 'single',
+      inbound_call_recording_enabled: true,
+      inbound_call_recording_format: 'wav'
+    },
+    cnam_listing: { cnam_listing_details: 'example', cnam_listing_enabled: true },
+    connection_id: '1d0e6cb8-8668-462e-94c6-49ae0f0ed48b',
+    emergency: {
+      emergency_address_id: '1315261609962112019',
+      emergency_enabled: true
+    },
+    id: '1293384261075731499',
+    media_features: {
+      accept_any_rtp_packets_enabled: true,
+      media_handling_mode: 'default',
+      rtp_auto_adjust_enabled: true,
+      t38_fax_gateway_enabled: true
+    },
+    record_type: 'voice_settings',
+    tech_prefix_enabled: false,
+    translated_number: '+13035559999',
+    usage_payment_method: 'pay-per-minute'
+  }
+}
+> telnyx.phoneNumbers.updateVoiceSettings(
+...   "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+...   { tech_prefix_enabled: true }
+... );
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": {
+.....     "call_forwarding": {
+.......       "call_forwarding_enabled": true,
+.......       "forwarding_type": "always",
+.......       "forwards_to": "+13035559123"
+.......     },
+.....     "call_recording": {
+.......       "inbound_call_recording_channels": "single",
+.......       "inbound_call_recording_enabled": true,
+.......       "inbound_call_recording_format": "wav"
+.......     },
+.....     "cnam_listing": {
+.......       "cnam_listing_details": "example",
+.......       "cnam_listing_enabled": true
+.......     },
+.....     "connection_id": "1d0e6cb8-8668-462e-94c6-49ae0f0ed48b",
+.....     "emergency": {
+.......       "emergency_address_id": "1315261609962112019",
+.......       "emergency_enabled": true
+.......     },
+.....     "id": "1293384261075731499",
+.....     "media_features": {
+.......       "accept_any_rtp_packets_enabled": true,
+.......       "media_handling_mode": "default",
+.......       "rtp_auto_adjust_enabled": true,
+.......       "t38_fax_gateway_enabled": true
+.......     },
+.....     "record_type": "voice_settings",
+.....     "tech_prefix_enabled": false,
+.....     "translated_number": "+13035559999",
+.....     "usage_payment_method": "pay-per-minute"
+.....   }
+... }
+{
+  data: {
+    call_forwarding: {
+      call_forwarding_enabled: true,
+      forwarding_type: 'always',
+      forwards_to: '+13035559123'
+    },
+    call_recording: {
+      inbound_call_recording_channels: 'single',
+      inbound_call_recording_enabled: true,
+      inbound_call_recording_format: 'wav'
+    },
+    cnam_listing: { cnam_listing_details: 'example', cnam_listing_enabled: true },
+    connection_id: '1d0e6cb8-8668-462e-94c6-49ae0f0ed48b',
+    emergency: {
+      emergency_address_id: '1315261609962112019',
+      emergency_enabled: true
+    },
+    id: '1293384261075731499',
+    media_features: {
+      accept_any_rtp_packets_enabled: true,
+      media_handling_mode: 'default',
+      rtp_auto_adjust_enabled: true,
+      t38_fax_gateway_enabled: true
+    },
+    record_type: 'voice_settings',
+    tech_prefix_enabled: false,
+    translated_number: '+13035559999',
+    usage_payment_method: 'pay-per-minute'
+  }
+}
+> {
+...   "data": [
+...     {
+.....       "call_forwarding": {
+.......         "call_forwarding_enabled": true,
+.......         "forwarding_type": "always",
+.......         "forwards_to": "+13035559123"
+.......       },
+.....       "call_recording": {
+.......         "inbound_call_recording_channels": "single",
+.......         "inbound_call_recording_enabled": true,
+.......         "inbound_call_recording_format": "wav"
+.......       },
+.....       "cnam_listing": {
+.......         "cnam_listing_details": "example",
+.......         "cnam_listing_enabled": true
+.......       },
+.....       "connection_id": "1d0e6cb8-8668-462e-94c6-49ae0f0ed48b",
+.....       "emergency": {
+.......         "emergency_address_id": "1315261609962112019",
+.......         "emergency_enabled": true
+.......       },
+.....       "id": "1293384261075731499",
+.....       "media_features": {
+.......         "accept_any_rtp_packets_enabled": true,
+.......         "media_handling_mode": "default",
+.......         "rtp_auto_adjust_enabled": true,
+.......         "t38_fax_gateway_enabled": true
+.......       },
+.....       "record_type": "voice_settings",
+.....       "tech_prefix_enabled": false,
+.....       "translated_number": "+13035559999",
+.....       "usage_payment_method": "pay-per-minute"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      call_forwarding: [Object],
+      call_recording: [Object],
+      cnam_listing: [Object],
+      connection_id: '1d0e6cb8-8668-462e-94c6-49ae0f0ed48b',
+      emergency: [Object],
+      id: '1293384261075731499',
+      media_features: [Object],
+      record_type: 'voice_settings',
+      tech_prefix_enabled: false,
+      translated_number: '+13035559999',
+      usage_payment_method: 'pay-per-minute'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> {
+...   "data": [
+...     {
+.....       "country_code": "US",
+.....       "created_at": "2019-01-23T18:10:02.574Z",
+.....       "eligible_messaging_products": [
+.....         "A2P"
+.....       ],
+.....       "features": {
+.......         "mms": null,
+.......         "sms": {
+.........           "domestic_two_way": true,
+.........           "international_inbound": true,
+.........           "international_outbound": true
+.........         }
+.......       },
+.....       "health": {
+.......         "inbound_outbound_ratio": 0.43,
+.......         "message_count": 122,
+.......         "spam_ratio": 0.06,
+.......         "success_ratio": 0.94
+.......       },
+.....       "id": "1293384261075731499",
+.....       "messaging_product": "A2P",
+.....       "messaging_profile_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+.....       "phone_number": "+18005550001",
+.....       "record_type": "messaging_settings",
+.....       "traffic_type": "A2P",
+.....       "type": "toll-free",
+.....       "updated_at": "2019-01-23T18:10:02.574Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      country_code: 'US',
+      created_at: '2019-01-23T18:10:02.574Z',
+      eligible_messaging_products: [Array],
+      features: [Object],
+      health: [Object],
+      id: '1293384261075731499',
+      messaging_product: 'A2P',
+      messaging_profile_id: '3fa85f64-5717-4562-b3fc-2c963f66afa6',
+      phone_number: '+18005550001',
+      record_type: 'messaging_settings',
+      traffic_type: 'A2P',
+      type: 'toll-free',
+      updated_at: '2019-01-23T18:10:02.574Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+...   "data": {
+.....     "country_code": "US",
+.....     "created_at": "2019-01-23T18:10:02.574Z",
+.....     "eligible_messaging_products": [
+.....       "A2P"
+.....     ],
+.....     "features": {
+.......       "mms": null,
+.......       "sms": {
+.........         "domestic_two_way": true,
+.........         "international_inbound": true,
+.........         "international_outbound": true
+.........       }
+.......     },
+.....     "health": {
+.......       "inbound_outbound_ratio": 0.43,
+.......       "message_count": 122,
+.......       "spam_ratio": 0.06,
+.......       "success_ratio": 0.94
+.......     },
+.....     "id": "1293384261075731499",
+.....     "messaging_product": "A2P",
+.....     "messaging_profile_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+.....     "phone_number": "+18005550001",
+.....     "record_type": "messaging_settings",
+.....     "traffic_type": "A2P",
+.....     "type": "toll-free",
+.....     "updated_at": "2019-01-23T18:10:02.574Z"
+.....   }
+... }
+{
+  data: {
+    country_code: 'US',
+    created_at: '2019-01-23T18:10:02.574Z',
+    eligible_messaging_products: [ 'A2P' ],
+    features: { mms: null, sms: [Object] },
+    health: {
+      inbound_outbound_ratio: 0.43,
+      message_count: 122,
+      spam_ratio: 0.06,
+      success_ratio: 0.94
+    },
+    id: '1293384261075731499',
+    messaging_product: 'A2P',
+    messaging_profile_id: '3fa85f64-5717-4562-b3fc-2c963f66afa6',
+    phone_number: '+18005550001',
+    record_type: 'messaging_settings',
+    traffic_type: 'A2P',
+    type: 'toll-free',
+    updated_at: '2019-01-23T18:10:02.574Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> telnyx.phoneNumbers.updateMessagingSettings(
+...   "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+...   { messaging_profile_id: "e51f3bde-l4b7-464d-bc90-47196f9dd36b" }
+... );
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": {
+.....     "country_code": "US",
+.....     "created_at": "2019-01-23T18:10:02.574Z",
+.....     "eligible_messaging_products": [
+.....       "A2P"
+.....     ],
+.....     "features": {
+.......       "mms": null,
+.......       "sms": {
+.........         "domestic_two_way": true,
+.........         "international_inbound": true,
+.........         "international_outbound": true
+.........       }
+.......     },
+.....     "health": {
+.......       "inbound_outbound_ratio": 0.43,
+.......       "message_count": 122,
+.......       "spam_ratio": 0.06,
+.......       "success_ratio": 0.94
+.......     },
+.....     "id": "1293384261075731499",
+.....     "messaging_product": "A2P",
+.....     "messaging_profile_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+.....     "phone_number": "+18005550001",
+.....     "record_type": "messaging_settings",
+.....     "traffic_type": "A2P",
+.....     "type": "toll-free",
+.....     "updated_at": "2019-01-23T18:10:02.574Z"
+.....   }
+... }
+{
+  data: {
+    country_code: 'US',
+    created_at: '2019-01-23T18:10:02.574Z',
+    eligible_messaging_products: [ 'A2P' ],
+    features: { mms: null, sms: [Object] },
+    health: {
+      inbound_outbound_ratio: 0.43,
+      message_count: 122,
+      spam_ratio: 0.06,
+      success_ratio: 0.94
+    },
+    id: '1293384261075731499',
+    messaging_product: 'A2P',
+    messaging_profile_id: '3fa85f64-5717-4562-b3fc-2c963f66afa6',
+    phone_number: '+18005550001',
+    record_type: 'messaging_settings',
+    traffic_type: 'A2P',
+    type: 'toll-free',
+    updated_at: '2019-01-23T18:10:02.574Z'
+  }
+}
+> // In Node 10
+undefined
+> const { data: requirementsList } = await telnyx.regulatoryRequirements.list({
+Thrown:
+const { data: requirementsList } = await telnyx.regulatoryRequirements.list({
+                                   ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter: { requirement_id: '36aaf27d-986b-493c-bd1b-de16af2e4292' }
+'36aaf27d-986b-493c-bd1b-de16af2e4292'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.regulatoryRequirements.list({
+...   filter: { requirement_id: '36aaf27d-986b-493c-bd1b-de16af2e4292' }
+... }).then(function(response){
+...   const requirementsList = response.data; // asynchronously handled
+...   "data": [
+...     {
+.....       "description": "Requirement for providing Proof of Address.",
+.....       "field_type": "address",
+.....       "label": "Proof of Address",
+.....       "record_type": "regulatory_requirement",
+.....       "requirement_type": "end user proof of address"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      description: 'Requirement for providing Proof of Address.',
+      field_type: 'address',
+      label: 'Proof of Address',
+      record_type: 'regulatory_requirement',
+      requirement_type: 'end user proof of address'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> // In Node 10
+undefined
+> const { data: requirement } = await telnyx.regulatoryRequirements.retrieve("uuid");
+Thrown:
+const { data: requirement } = await telnyx.regulatoryRequirements.retrieve("uuid");
+                              ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.regulatoryRequirements.retrieve("uuid").then(function(response){
+...   const requirement = response.data; // asynchronously handled
+... });
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": {
+.....     "description": "Requirement for providing Proof of Address.",
+.....     "field_type": "address",
+.....     "label": "Proof of Address",
+.....     "record_type": "regulatory_requirement",
+.....     "requirement_type": "end user proof of address"
+.....   }
+... }
+{
+  data: {
+    description: 'Requirement for providing Proof of Address.',
+    field_type: 'address',
+    label: 'Proof of Address',
+    record_type: 'regulatory_requirement',
+    requirement_type: 'end user proof of address'
+  }
+}
+> // In Node 10
+undefined
+> const { data: requirementsList } = await telnyx.phoneNumberRegulatoryRequirements.list({
+Thrown:
+const { data: requirementsList } = await telnyx.phoneNumberRegulatoryRequirements.list({
+                                   ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter: { phone_number: '+19705555098' }
+'+19705555098'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.phoneNumberRegulatoryRequirements.list({
+...   filter: { phone_number: '+19705555098' }
+... }).then(function(response){
+...   const requirementsList = response.data; // asynchronously handled
+...   "data": [
+...     {
+.....       "phone_number": "+19705555098",
+.....       "record_type": "phone_number_regulatory_requirement",
+.....       "regulatory_group_id": "d70873cd-7c98-401a-81b6-b1ae08246995",
+.....       "regulatory_requirements": [
+.....         {
+.......           "description": "Requirement for providing Proof of Address.",
+.......           "field_type": "address",
+.......           "label": "Proof of Address",
+.......           "record_type": "regulatory_requirement",
+.......           "requirement_type": "end user proof of address"
+.......         }
+.....       ]
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      phone_number: '+19705555098',
+      record_type: 'phone_number_regulatory_requirement',
+      regulatory_group_id: 'd70873cd-7c98-401a-81b6-b1ae08246995',
+      regulatory_requirements: [Array]
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+...   "data": [
+...     {
+.....       "connection_id": "346789098765567",
+.....       "created_at": "2018-01-01T00:00:00.000000Z",
+.....       "customer_reference": "MY REF 001",
+.....       "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....       "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+.....       "phone_numbers": [
+.....         {
+.......           "id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......           "phone_number": "+19705555098",
+.......           "record_type": "number_order_phone_number",
+.......           "regulatory_group_id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......           "regulatory_requirements": [
+.......             {
+.........               "field_type": "address_id",
+.........               "field_value": "45f45a04-b4be-4592-95b1-9306b9db2b21",
+.........               "record_type": "phone_number_regulatory_requirement",
+.........               "requirement_id": "8ffb3622-7c6b-4ccc-b65f-7a3dc0099576"
+.........             }
+.......           ],
+.......           "requirements_met": true,
+.......           "status": "success"
+.......         }
+.....       ],
+.....       "phone_numbers_count": 1,
+.....       "record_type": "number_order",
+.....       "requirements_met": true,
+.....       "status": "pending",
+.....       "updated_at": "2018-01-01T00:00:00.000000Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      connection_id: '346789098765567',
+      created_at: '2018-01-01T00:00:00.000000Z',
+      customer_reference: 'MY REF 001',
+      id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+      messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600',
+      phone_numbers: [Array],
+      phone_numbers_count: 1,
+      record_type: 'number_order',
+      requirements_met: true,
+      status: 'pending',
+      updated_at: '2018-01-01T00:00:00.000000Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> telnyx.numberOrders.create({
+...   phone_numbers: [{phone_number: "+18665552368"}]
+...   "data": {
+.....     "connection_id": "346789098765567",
+.....     "created_at": "2018-01-01T00:00:00.000000Z",
+.....     "customer_reference": "MY REF 001",
+.....     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+.....     "phone_numbers": [
+.....       {
+.......         "id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......         "phone_number": "+19705555098",
+.......         "record_type": "number_order_phone_number",
+.......         "regulatory_group_id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......         "regulatory_requirements": [
+.......           {
+.........             "field_type": "address_id",
+.........             "field_value": "45f45a04-b4be-4592-95b1-9306b9db2b21",
+.........             "record_type": "phone_number_regulatory_requirement",
+.........             "requirement_id": "8ffb3622-7c6b-4ccc-b65f-7a3dc0099576"
+.........           }
+.......         ],
+.......         "requirements_met": true,
+.......         "status": "success"
+.......       }
+.....     ],
+.....     "phone_numbers_count": 1,
+.....     "record_type": "number_order",
+.....     "requirements_met": true,
+.....     "status": "pending",
+.....     "updated_at": "2018-01-01T00:00:00.000000Z"
+.....   }
+... }
+{
+  data: {
+    connection_id: '346789098765567',
+    created_at: '2018-01-01T00:00:00.000000Z',
+    customer_reference: 'MY REF 001',
+    id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+    messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600',
+    phone_numbers: [ [Object] ],
+    phone_numbers_count: 1,
+    record_type: 'number_order',
+    requirements_met: true,
+    status: 'pending',
+    updated_at: '2018-01-01T00:00:00.000000Z'
+  }
+}
+...   "data": {
+.....     "event_type": "number_order.complete",
+.....     "id": "string",
+.....     "occurred_at": "string",
+.....     "payload": {
+.......       "connection_id": "346789098765567",
+.......       "created_at": "2018-01-01T00:00:00.000000Z",
+.......       "customer_reference": "MY REF 001",
+.......       "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.......       "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+.......       "phone_numbers": [
+.......         {
+.........           "id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.........           "phone_number": "+19705555098",
+.........           "record_type": "number_order_phone_number",
+.........           "regulatory_group_id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.........           "regulatory_requirements": [
+.........             {
+...........               "field_type": "address_id",
+...........               "field_value": "45f45a04-b4be-4592-95b1-9306b9db2b21",
+...........               "record_type": "phone_number_regulatory_requirement",
+...........               "requirement_id": "8ffb3622-7c6b-4ccc-b65f-7a3dc0099576"
+...........             }
+.........           ],
+.........           "requirements_met": true,
+.........           "status": "success"
+.........         }
+.......       ],
+.......       "phone_numbers_count": 1,
+.......       "record_type": "number_order",
+.......       "requirements_met": true,
+.......       "status": "pending",
+.......       "updated_at": "2018-01-01T00:00:00.000000Z"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'number_order.complete',
+    id: 'string',
+    occurred_at: 'string',
+    payload: {
+      connection_id: '346789098765567',
+      created_at: '2018-01-01T00:00:00.000000Z',
+      customer_reference: 'MY REF 001',
+      id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+      messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600',
+      phone_numbers: [Array],
+      phone_numbers_count: 1,
+      record_type: 'number_order',
+      requirements_met: true,
+      status: 'pending',
+      updated_at: '2018-01-01T00:00:00.000000Z'
+    },
+    record_type: 'event'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> telnyx.numberOrders.retrieve(
+... ).then(function(response){
+.....   const numberOrder = response.data; // asynchronously handled
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "connection_id": "346789098765567",
+Thrown:
+    "connection_id": "346789098765567",
+                   ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-01-01T00:00:00.000000Z",
+Thrown:
+    "created_at": "2018-01-01T00:00:00.000000Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "customer_reference": "MY REF 001",
+Thrown:
+    "customer_reference": "MY REF 001",
+                        ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+Thrown:
+    "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+Thrown:
+    "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+                          ^
+
+SyntaxError: Unexpected token ':'
+>     "phone_numbers": [
+Thrown:
+    "phone_numbers": [
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       {
+...         "id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+...         "phone_number": "+19705555098",
+...         "record_type": "number_order_phone_number",
+...         "regulatory_group_id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+...         "regulatory_requirements": [
+...           {
+.....             "field_type": "address_id",
+.....             "field_value": "45f45a04-b4be-4592-95b1-9306b9db2b21",
+.....             "record_type": "phone_number_regulatory_requirement",
+.....             "requirement_id": "8ffb3622-7c6b-4ccc-b65f-7a3dc0099576"
+.....           }
+...         ],
+...         "requirements_met": true,
+...         "status": "success"
+...       }
+{
+  id: 'dc8e4d67-33a0-4cbb-af74-7b58f05bd494',
+  phone_number: '+19705555098',
+  record_type: 'number_order_phone_number',
+  regulatory_group_id: 'dc8e4d67-33a0-4cbb-af74-7b58f05bd494',
+  regulatory_requirements: [
+    {
+      field_type: 'address_id',
+      field_value: '45f45a04-b4be-4592-95b1-9306b9db2b21',
+      record_type: 'phone_number_regulatory_requirement',
+      requirement_id: '8ffb3622-7c6b-4ccc-b65f-7a3dc0099576'
+    }
+  ],
+  requirements_met: true,
+  status: 'success'
+}
+>     ],
+Thrown:
+    ],
+    ^
+
+SyntaxError: Unexpected token ']'
+>     "phone_numbers_count": 1,
+Thrown:
+    "phone_numbers_count": 1,
+                         ^
+
+SyntaxError: Unexpected token ':'
+>     "record_type": "number_order",
+Thrown:
+    "record_type": "number_order",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "requirements_met": true,
+Thrown:
+    "requirements_met": true,
+                      ^
+
+SyntaxError: Unexpected token ':'
+>     "status": "pending",
+Thrown:
+    "status": "pending",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "updated_at": "2018-01-01T00:00:00.000000Z"
+Thrown:
+    "updated_at": "2018-01-01T00:00:00.000000Z"
+                ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+}const telnyx = require('telnyx')('YOUR_API_KEY');
+^
+
+SyntaxError: Unexpected token '}'
+> // for Node 10:
+undefined
+> const { data: order } = await telnyx.numberOrders.retrieve('uuid');
+Thrown:
+const { data: order } = await telnyx.numberOrders.retrieve('uuid');
+                        ^^^^^
+
+SyntaxError: await is only valid in async function
+> order.customer_reference = "MY REF";
+Thrown:
+ReferenceError: order is not defined
+> order.save();
+Thrown:
+ReferenceError: order is not defined
+>
+> // In other environments
+undefined
+> telnyx.numberOrders.retrieve(...).then(function(response){
+Thrown:
+telnyx.numberOrders.retrieve(...).then(function(response){
+                                ^
+
+SyntaxError: Unexpected token ')'
+>   const order = response.data;
+Thrown:
+ReferenceError: response is not defined
+>   order.customer_reference = "MY REF";
+Thrown:
+ReferenceError: order is not defined
+>   order.save();
+Thrown:
+ReferenceError: order is not defined
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "connection_id": "346789098765567",
+.....     "created_at": "2018-01-01T00:00:00.000000Z",
+.....     "customer_reference": "MY REF 001",
+.....     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....     "messaging_profile_id": "abc85f64-5717-4562-b3fc-2c9600",
+.....     "phone_numbers": [
+.....       {
+.......         "id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......         "phone_number": "+19705555098",
+.......         "record_type": "number_order_phone_number",
+.......         "regulatory_group_id": "dc8e4d67-33a0-4cbb-af74-7b58f05bd494",
+.......         "regulatory_requirements": [
+.......           {
+.........             "field_type": "address_id",
+.........             "field_value": "45f45a04-b4be-4592-95b1-9306b9db2b21",
+.........             "record_type": "phone_number_regulatory_requirement",
+.........             "requirement_id": "8ffb3622-7c6b-4ccc-b65f-7a3dc0099576"
+.........           }
+.......         ],
+.......         "requirements_met": true,
+.......         "status": "success"
+.......       }
+.....     ],
+.....     "phone_numbers_count": 1,
+.....     "record_type": "number_order",
+.....     "requirements_met": true,
+.....     "status": "pending",
+.....     "updated_at": "2018-01-01T00:00:00.000000Z"
+.....   }
+... }
+{
+  data: {
+    connection_id: '346789098765567',
+    created_at: '2018-01-01T00:00:00.000000Z',
+    customer_reference: 'MY REF 001',
+    id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+    messaging_profile_id: 'abc85f64-5717-4562-b3fc-2c9600',
+    phone_numbers: [ [Object] ],
+    phone_numbers_count: 1,
+    record_type: 'number_order',
+    requirements_met: true,
+    status: 'pending',
+    updated_at: '2018-01-01T00:00:00.000000Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> telnyx.numberReservations.list(
+...   {filter:{'phone_numbers.phone_number': ['+18665552368']}}
+... ).then(function(response){
+.....   const numberReservations = response.data; // asynchronously handled
+..... });
+Thrown:
+ReferenceError: telnyx is not defined
+> {
+...   "data": [
+...     {
+.....       "created_at": "2018-01-01T00:00:00.000000Z",
+.....       "customer_reference": "MY REF 001",
+.....       "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....       "phone_numbers": [
+.....         {
+.......           "created_at": "2018-01-01T00:00:00.000000Z",
+.......           "errors": "",
+.......           "expired_at": "2018-01-01T00:00:00.000000Z",
+.......           "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.......           "phone_number": "+19705555098",
+.......           "record_type": "reserved_phone_number",
+.......           "status": "pending",
+.......           "updated_at": "2018-01-01T00:00:00.000000Z"
+.......         }
+.....       ],
+.....       "record_type": "number_reservation",
+.....       "status": "pending",
+.....       "updated_at": "2018-01-01T00:00:00.000000Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+> telnyx.numberReservations.create(
+...   {phone_numbers=[{'phone_number': '+18665552368'}]}
+... ).then(function(response){
+Thrown: ^
+
+SyntaxError: Unexpected token ':'
+
+SyntaxError: Unexpected end of input
+>   const numberReservation = response.data; // asynchronously handled
+Thrown:
+ReferenceError: response is not defined
+>   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-01-01T00:00:00.000000Z",
+Thrown:
+    "created_at": "2018-01-01T00:00:00.000000Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "customer_reference": "MY REF 001",
+Thrown:
+    "customer_reference": "MY REF 001",
+                        ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+Thrown:
+    "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "phone_numbers": [
+Thrown:
+    "phone_numbers": [
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       {
+...         "created_at": "2018-01-01T00:00:00.000000Z",
+...         "errors": "",
+...         "expired_at": "2018-01-01T00:00:00.000000Z",
+...         "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+...         "phone_number": "+19705555098",
+...         "record_type": "reserved_phone_number",
+...         "status": "pending",
+...         "updated_at": "2018-01-01T00:00:00.000000Z"
+...       }
+{
+  created_at: '2018-01-01T00:00:00.000000Z',
+  errors: '',
+  expired_at: '2018-01-01T00:00:00.000000Z',
+  id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+  phone_number: '+19705555098',
+  record_type: 'reserved_phone_number',
+  status: 'pending',
+  updated_at: '2018-01-01T00:00:00.000000Z'
+}
+>     ],
+Thrown:
+    ],
+    ^
+
+SyntaxError: Unexpected token ']'
+>     "record_type": "number_reservation",
+Thrown:
+    "record_type": "number_reservation",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "status": "pending",
+Thrown:
+    "status": "pending",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "updated_at": "2018-01-01T00:00:00.000000Z"
+Thrown:
+    "updated_at": "2018-01-01T00:00:00.000000Z"
+                ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> telnyx.numberReservations.retrieve('uuid')
+Thrown:
+ReferenceError: telnyx is not definedUR_API_KEY');
+>   .then(function(response){
+Invalid REPL keyword
+>     const numberReservation = response.data; // asynchronously handled
+Thrown:
+SyntaxError: Identifier 'numberReservation' has already been declared
+...   "data": {
+.....     "created_at": "2018-01-01T00:00:00.000000Z",
+.....     "customer_reference": "MY REF 001",
+.....     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....     "phone_numbers": [
+.....       {
+.......         "created_at": "2018-01-01T00:00:00.000000Z",
+.......         "errors": "",
+.......         "expired_at": "2018-01-01T00:00:00.000000Z",
+.......         "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.......         "phone_number": "+19705555098",
+.......         "record_type": "reserved_phone_number",
+.......         "status": "pending",
+.......         "updated_at": "2018-01-01T00:00:00.000000Z"
+.......       }
+.....     ],
+.....     "record_type": "number_reservation",
+.....     "status": "pending",
+.....     "updated_at": "2018-01-01T00:00:00.000000Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-01-01T00:00:00.000000Z',
+    customer_reference: 'MY REF 001',
+    id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+    phone_numbers: [ [Object] ],
+    record_type: 'number_reservation',
+    status: 'pending',
+    updated_at: '2018-01-01T00:00:00.000000Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // for Node 10:
+undefined
+> const { data: numberReservation } = await telnyx.numberReservations.retrieve('uuid');
+Thrown:
+const { data: numberReservation } = await telnyx.numberReservations.retrieve('uuid');
+                                    ^^^^^
+
+SyntaxError: await is only valid in async function
+> numberReservation.extend();
+Thrown:
+ReferenceError: numberReservation is not defined
+>
+> // In other environments
+undefined
+> telnyx.numberReservations.retrieve(...).then(function(response){
+Thrown:
+telnyx.numberReservations.retrieve(...).then(function(response){
+                                      ^
+
+SyntaxError: Unexpected token ')'
+>   const numberReservation = response.data;
+Thrown:
+SyntaxError: Identifier 'numberReservation' has already been declared
+>   numberReservation.extend();
+Thrown:
+ReferenceError: numberReservation is not defined
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "created_at": "2018-01-01T00:00:00.000000Z",
+.....     "customer_reference": "MY REF 001",
+.....     "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.....     "phone_numbers": [
+.....       {
+.......         "created_at": "2018-01-01T00:00:00.000000Z",
+.......         "errors": "",
+.......         "expired_at": "2018-01-01T00:00:00.000000Z",
+.......         "id": "12ade33a-21c0-473b-b055-b3c836e1c292",
+.......         "phone_number": "+19705555098",
+.......         "record_type": "reserved_phone_number",
+.......         "status": "pending",
+.......         "updated_at": "2018-01-01T00:00:00.000000Z"
+.......       }
+.....     ],
+.....     "record_type": "number_reservation",
+.....     "status": "pending",
+.....     "updated_at": "2018-01-01T00:00:00.000000Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-01-01T00:00:00.000000Z',
+    customer_reference: 'MY REF 001',
+    id: '12ade33a-21c0-473b-b055-b3c836e1c292',
+    phone_numbers: [ [Object] ],
+    record_type: 'number_reservation',
+    status: 'pending',
+    updated_at: '2018-01-01T00:00:00.000000Z'
+  }
+}
+...   "data": [
+...     {
+.....       "best_effort": false,
+.....       "cost_information": {
+.......         "currency": "USD",
+.......         "monthly_cost": "6.54",
+.......         "upfront_cost": "3.21"
+.......       },
+.....       "phone_number": "+19705555098",
+.....       "quickship": true,
+.....       "record_type": "available_phone_number",
+.....       "region_information": [
+.....         {
+.......           "region_name": "US",
+.......           "region_type": "country_code"
+.......         }
+.....       ],
+.....       "regulatory_requirements": [
+.....         {
+.......           "description": "Requirement for providing Proof of Address.",
+.......           "field_type": "address",
+.......           "label": "Proof of Address",
+.......           "requirement_type": "end user proof of address"
+.......         }
+.....       ],
+.....       "reservable": true,
+.....       "vanity_format": ""
+.....     }
+...   ],
+...   "meta": {
+.....     "best_effort_results": 50,
+.....     "total_results": 100
+.....   }
+... }
+{
+  data: [
+    {
+      best_effort: false,
+      cost_information: [Object],
+      phone_number: '+19705555098',
+      quickship: true,
+      record_type: 'available_phone_number',
+      region_information: [Array],
+      regulatory_requirements: [Array],
+      reservable: true,
+      vanity_format: ''
+    }
+  ],
+  meta: { best_effort_results: 50, total_results: 100 }
+}
+> curl -X POST \
+Thrown:
+curl -X POST \
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^n 'const'
+
+SyntaxError: await is only valid in async function
+> call.answer();
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+ReferenceError: response is not defined
+>   call.answer(...);
+Thrown:
+  call.answer(...);
+                 ^
+
+SyntaxError: Unexpected token ')'
+...   "data": {
+.....     "result": "ok"
+.....   }
+...   "data": {
+.....     "event_type": "call.answered",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "state": "answered",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.answered',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      state: 'answered',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({
+Thrown:
+const { data: call } = await telnyx.calls.create({
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+>   connection_id: 'uuid',
+...   to: '+18005550199',
+Thrown:
+  to: '+18005550199',
+    ^
+
+SyntaxError: Unexpected token ':'
+>   from: '+18005550100'
+'+18005550100'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+> call.bridge({ call_control_id: 'bridge_uuid' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.bridge(...);
+Thrown:
+  call.bridge(...);
+                 ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.bridged",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "state": "bridged",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.bridged',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      state: 'bridged',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^n '}'
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.....     "call_leg_id": "2dc6fc34-f9e0-11ea-b68e-02420a0f7768",
+.....     "call_session_id": "2dc1b3c8-f9e0-11ea-bc5a-02420a0f7768",
+.....     "is_alive": false,
+.....     "record_type": "call"
+.....   }
+... }
+{
+  data: {
+    call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+    call_leg_id: '2dc6fc34-f9e0-11ea-b68e-02420a0f7768',
+    call_session_id: '2dc1b3c8-f9e0-11ea-bc5a-02420a0f7768',
+    is_alive: false,
+    record_type: 'call'
+  }
+}
+...   "data": {
+.....     "event_type": "call.answered",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "state": "answered",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.answered',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      state: 'answered',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.hangup",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "hangup_cause": "call_rejected",
+.......       "hangup_source": "caller",
+.......       "sip_hangup_cause": "603",
+.......       "state": "hangup",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.hangup',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      hangup_cause: 'call_rejected',
+      hangup_source: 'caller',
+      sip_hangup_cause: '603',
+      state: 'hangup',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.initiated",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "direction": "incoming",
+.......       "from": "+35319605860",
+.......       "state": "parked",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.initiated',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      direction: 'incoming',
+      from: '+35319605860',
+      state: 'parked',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> {
+...   "data": {
+.....     "event_type": "call.machine.detection.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "result": "machine",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.machine.detection.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      result: 'machine',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.machine.greeting.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "result": "ended",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.machine.greeting.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      result: 'ended',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+>
+>   0                   1                   2                   3
+Thrown:pecification
+  0                   1                   2                   3
+                      ^
+SyntaxError: Unexpected identifier
+SyntaxError: Unexpected number
+>   0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+Thrown:
+  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+    ^
+
+SyntaxError: Unexpected number
+>  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+...  |1 1|Version|L|D|    HeaderLen  |  reserved (2 bytes)           |
+Thrown:
+ |1 1|Version|L|D|    HeaderLen  |  reserved (2 bytes)           |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+...  |       reserved (4 bytes, for UDP ports or anything else)      |
+Thrown:
+ |       reserved (4 bytes, for UDP ports or anything else)      |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+...  |               The call_leg_id                                 |
+Thrown:
+ |               The call_leg_id                                 |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  |                   from Call Control                           |
+Thrown:
+ |                   from Call Control                           |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  |                       (128 bits / 16 bytes)                   |
+Thrown:
+ |                       (128 bits / 16 bytes)                   |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  |                           (this is binary data)               |
+Thrown:
+ |                           (this is binary data)               |
+ ^
+
+SyntaxError: Unexpected token '|'
+>  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+...
+...  11
+11
+>    Static bits 11, always set to 11 to easily distinguish forked media
+Thrown:
+   Static bits 11, always set to 11 to easily distinguish forked media
+          ^^^^
+
+SyntaxError: Unexpected identifier
+>    from RTP (10) and T.38 media (usually 00) and SIP (which begins
+Thrown:
+   from RTP (10) and T.38 media (usually 00) and SIP (which begins
+        ^^^
+
+SyntaxError: Unexpected identifier
+>    with a capital letter, so begins with bits 01). This is a magic number.
+Thrown:
+   with a capital letter, so begins with bits 01). This is a magic number.
+        ^
+
+SyntaxError: Unexpected identifier
+>
+>  Version
+Thrown:
+ReferenceError: Version is not defined
+>    Four bits to indicate the version number of the protocol, starting at 0001.
+Thrown:
+   Four bits to indicate the version number of the protocol, starting at 0001.
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>
+>  L
+Thrown:
+ReferenceError: L is not defined
+>    One bit to represent the leg of the call (A or B).
+Thrown:
+   One bit to represent the leg of the call (A or B).
+       ^^^
+
+SyntaxError: Unexpected identifier
+>    0 represents the A (first) leg of the call.
+Thrown:
+   0 represents the A (first) leg of the call.
+     ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+>    1 represents the B (second) leg of the call.
+Thrown:
+   1 represents the B (second) leg of the call.
+     ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+>
+>  D
+Thrown:
+ReferenceError: D is not defined
+>    One bit to represent the direction of this RTP stream.
+Thrown:
+   One bit to represent the direction of this RTP stream.
+       ^^^
+
+SyntaxError: Unexpected identifier
+>    0 represents media received by Telnyx.
+Thrown:
+   0 represents media received by Telnyx.
+     ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+>    1 represents media transmitted by Telnyx.
+Thrown:
+   1 represents media transmitted by Telnyx.
+     ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+>
+>  HeaderLen (1 byte)
+Thrown:
+ HeaderLen (1 byte)
+            ^
+
+SyntaxError: missing ) after argument list
+>    The length of the header in bytes.
+Thrown:
+   The length of the header in bytes.
+       ^^^^^^
+
+SyntaxError: Unexpected identifier
+>    Note that this value does not include the length of the payload. The total
+Thrown:
+   Note that this value does not include the length of the payload. The total
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>    size of the RTP can be calculated by subtracting the HeaderLen from the UDP
+Thrown:
+   size of the RTP can be calculated by subtracting the HeaderLen from the UDP
+        ^^
+
+SyntaxError: Unexpected identifier
+>    length (minus 8 for the UDP header).
+Thrown:
+   length (minus 8 for the UDP header).
+           ^^^^^
+
+SyntaxError: missing ) after argument list
+>    In version 1, this value will always be 24.
+Thrown:
+   In version 1, this value will always be 24.
+      ^^^^^^^
+
+SyntaxError: Unexpected identifier
+>
+>  Reserved (6 bytes)
+Thrown:
+ Reserved (6 bytes)
+           ^
+
+SyntaxError: missing ) after argument list
+>    Reserved for future use and to make sure that the header is a multiple of 32 bits
+Thrown:
+   Reserved for future use and to make sure that the header is a multiple of 32 bits
+            ^^^
+
+SyntaxError: Unexpected token 'for'
+>
+>  Call Leg ID
+Thrown:
+ Call Leg ID
+      ^^^
+
+SyntaxError: Unexpected identifier
+>    A 128-bit identifier for the call leg.
+Thrown:
+   A 128-bit identifier for the call leg.
+     ^^^
+
+SyntaxError: Unexpected number
+>    This is the call_leg_id from Call Control.
+Thrown:
+   This is the call_leg_id from Call Control.
+        ^^
+
+SyntaxError: Unexpected identifier
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.fork_start({ target: 'udp:192.0.2.1:9000' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.fork_start(...);
+Thrown:
+  call.fork_start(...);
+                     ^
+
+SyntaxError: Unexpected token ')'
+> });
+{
+Thrown:
+});{
+^
+
+SyntaxError: Unexpected token '}'
+>   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "result": "ok"
+Thrown:
+    "result": "ok"
+            ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }{
+Thrown:
+}{
+^
+
+SyntaxError: Unexpected token '}'
+>   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "event_type": "call.fork.started",
+Thrown:
+    "event_type": "call.fork.started",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+Thrown:
+    "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "occurred_at": "2018-02-02T22:25:27.521992Z",
+Thrown:
+    "occurred_at": "2018-02-02T22:25:27.521992Z",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "payload": {
+Thrown:
+    "payload": {
+             ^
+
+SyntaxError: Unexpected token ':'
+>       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+Thrown:
+      "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+Thrown:
+      "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>       "connection_id": "7267xxxxxxxxxxxxxx"
+Thrown:
+      "connection_id": "7267xxxxxxxxxxxxxx"
+                     ^
+
+SyntaxError: Unexpected token ':'
+>     },
+Thrown:
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+>     "record_type": "event"
+Thrown:
+    "record_type": "event"
+                 ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+>   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "event_type": "call.fork.stopped",
+Thrown:
+    "event_type": "call.fork.stopped",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+Thrown:
+    "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "occurred_at": "2018-02-02T22:25:27.521992Z",
+Thrown:
+    "occurred_at": "2018-02-02T22:25:27.521992Z",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "payload": {
+Thrown:
+    "payload": {
+             ^
+
+SyntaxError: Unexpected token ':'
+>       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+Thrown:
+      "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+Thrown:
+      "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>       "connection_id": "7267xxxxxxxxxxxxxx"
+Thrown:
+      "connection_id": "7267xxxxxxxxxxxxxx"
+                     ^
+
+SyntaxError: Unexpected token ':'
+>     },
+Thrown:
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+>     "record_type": "event"
+Thrown:
+    "record_type": "event"
+                 ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^n '}'
+
+SyntaxError: await is only valid in async function
+> call.fork_stop();
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.fork_stop(...);
+Thrown:
+  call.fork_stop(...);
+                    ^
+
+SyntaxError: Unexpected token ')'
+>
+> {
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.fork.stopped",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "connection_id": "7267xxxxxxxxxxxxxx"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.fork.stopped',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      connection_id: '7267xxxxxxxxxxxxxx'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.gather_using_audio({ audio_url: 'http://example.com/message.wav' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.gather_using_audio(...);
+Thrown:
+  call.gather_using_audio(...);
+                             ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.dtmf.received",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "digit": "#",
+.......       "from": "+35319605860",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.dtmf.received',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      digit: '#',
+      from: '+35319605860',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> {
+...   "data": {
+.....     "event_type": "call.gather.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "digits": "5503",
+.......       "from": "+35319605860",
+.......       "status": "valid",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.gather.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      digits: '5503',
+      from: '+35319605860',
+      status: 'valid',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.playback.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "media_url": "http://example.com/audio.wav",
+.......       "overlay": false,
+.......       "status": "valid"
+.......     },
+.....     "record_type": "event"
+.....   }
+>   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "event_type": "call.playback.started",
+Thrown:
+    "event_type": "call.playback.started",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+Thrown:
+    "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "occurred_at": "2018-02-02T22:25:27.521992Z",
+Thrown:
+    "occurred_at": "2018-02-02T22:25:27.521992Z",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "payload": {
+Thrown:
+    "payload": {
+             ^
+
+SyntaxError: Unexpected token ':'
+>       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+Thrown:
+      "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+Thrown:
+      "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+                   ^
+
+SyntaxError: Unexpected token ':'
+>       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+Thrown:
+      "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+Thrown:
+      "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+                    ^
+
+SyntaxError: Unexpected token ':'
+>       "connection_id": "7267xxxxxxxxxxxxxx",
+Thrown:
+      "connection_id": "7267xxxxxxxxxxxxxx",
+                     ^
+
+SyntaxError: Unexpected token ':'
+>       "media_url": "http://example.com/audio.wav",
+Thrown:
+      "media_url": "http://example.com/audio.wav",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>       "overlay": false
+Thrown:
+      "overlay": false
+               ^
+
+SyntaxError: Unexpected token ':'
+>     },
+Thrown:
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+>     "record_type": "event"
+Thrown:
+    "record_type": "event"
+                 ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }
+Thrown:
+}
+^
+
+SyntaxError: Unexpected token '}'
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.gather_using_speak({ payload: 'Say this on the call' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.gather_using_speak(...);
+Thrown:
+  call.gather_using_speak(...);
+                             ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.dtmf.received",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "digit": "#",
+.......       "from": "+35319605860",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.dtmf.received',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      digit: '#',
+      from: '+35319605860',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> {
+...   "data": {
+.....     "event_type": "call.gather.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "digits": "5503",
+.......       "from": "+35319605860",
+.......       "status": "valid",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.gather.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      digits: '5503',
+      from: '+35319605860',
+      status: 'valid',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.hangup();
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.hangup(...);
+Thrown:
+  call.hangup(...);
+                 ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+> {
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.hangup",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "hangup_cause": "call_rejected",
+.......       "hangup_source": "caller",
+.......       "sip_hangup_cause": "603",
+.......       "state": "hangup",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.hangup',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      hangup_cause: 'call_rejected',
+      hangup_source: 'caller',
+      sip_hangup_cause: '603',
+      state: 'hangup',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.recording.saved",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "channels": "single",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "public_recording_urls": {
+.........         "mp3": "http://example.com/recording.mp3",
+.........         "wav": "http://example.com/recording.wav"
+.........       },
+.......       "recording_ended_at": "2018-02-02T22:25:27.521992Z",
+.......       "recording_started_at": "2018-02-02T22:20:27.521992Z",
+.......       "recording_urls": {
+.........         "mp3": "http://example.com/recording.mp3",
+.........         "wav": "http://example.com/recording.wav"
+.........       }
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.recording.saved',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      channels: 'single',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      public_recording_urls: [Object],
+      recording_ended_at: '2018-02-02T22:25:27.521992Z',
+      recording_started_at: '2018-02-02T22:20:27.521992Z',
+      recording_urls: [Object]
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.playback_start({ audio_url: 'http://www.example.com/sounds/greeting.wav' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.playback_start(...);
+Thrown:
+  call.playback_start(...);
+                         ^
+
+SyntaxError: Unexpected token ')'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+> {
+...   "data": {
+.....     "event_type": "call.playback.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "media_url": "http://example.com/audio.wav",
+.......       "overlay": false,
+.......       "status": "valid"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.playback.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      media_url: 'http://example.com/audio.wav',
+      overlay: false,
+      status: 'valid'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.playback.started",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "media_url": "http://example.com/audio.wav",
+.......       "overlay": false
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.playback.started',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      media_url: 'http://example.com/audio.wav',
+      overlay: false
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.playback_stop();
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.playback_stop(...);
+Thrown:
+  call.playback_stop(...);
+                        ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+...   "data": {
+.....     "event_type": "call.playback.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "media_url": "http://example.com/audio.wav",
+.......       "overlay": false,
+.......       "status": "valid"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.playback.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      media_url: 'http://example.com/audio.wav',
+      overlay: false,
+      status: 'valid'
+    },
+    record_type: 'event'
+  }
+}
+> {
+...   "data": {
+.....     "event_type": "call.speak.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "status": "completed"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.speak.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      status: 'completed'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.record_start({ format: 'mp3', channel: 'single' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.record_start(...);
+Thrown:
+  call.record_start(...);
+                       ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.record_stop({ format: 'mp3', channel: 'single' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.record_stop(...);
+Thrown:
+  call.record_stop(...);
+                      ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "event_type": "call.recording.saved",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "channels": "single",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "public_recording_urls": {
+.........         "mp3": "http://example.com/recording.mp3",
+.........         "wav": "http://example.com/recording.wav"
+.........       },
+.......       "recording_ended_at": "2018-02-02T22:25:27.521992Z",
+.......       "recording_started_at": "2018-02-02T22:20:27.521992Z",
+.......       "recording_urls": {
+.........         "mp3": "http://example.com/recording.mp3",
+.........         "wav": "http://example.com/recording.wav"
+.........       }
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.recording.saved',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      channels: 'single',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      public_recording_urls: [Object],
+      recording_ended_at: '2018-02-02T22:25:27.521992Z',
+      recording_started_at: '2018-02-02T22:20:27.521992Z',
+      recording_urls: [Object]
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.reject();
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.reject(...);
+Thrown:
+  call.reject(...);
+                 ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.hangup",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "hangup_cause": "call_rejected",
+.......       "hangup_source": "caller",
+.......       "sip_hangup_cause": "603",
+.......       "state": "hangup",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.hangup',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      hangup_cause: 'call_rejected',
+      hangup_source: 'caller',
+      sip_hangup_cause: '603',
+      state: 'hangup',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.send_dtmf({ digits: '1www2WABCDw9' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.send_dtmf(...);
+Thrown:
+  call.send_dtmf(...);
+                    ^
+
+SyntaxError: Unexpected token ')'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{"sip_address":"sip:username@sip.non-telnyx-address.com"}' \
+Thrown:
+  --data '{"sip_address":"sip:username@sip.non-telnyx-address.com"}' \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "result": "ok"
+Thrown:
+    "result": "ok"
+            ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+...   "data": {
+.....     "event_type": "call.refer.completed",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "sip_notify_response": 200,
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.refer.completed',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      sip_notify_response: 200,
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.refer.failed",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "sip_notify_response": 603,
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.refer.failed',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      sip_notify_response: 603,
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.refer.started",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "sip_notify_response": 100,
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.refer.started',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:OycMASgvIjsGIAVEx8x3n9rYeKnUJx6a3V8VGhs5futnr17KZhujZA',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      sip_notify_response: 100,
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.speak({ payload: 'Say this on the call' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.speak(...);
+Thrown:
+  call.speak(...);
+                ^
+
+SyntaxError: Unexpected token ')'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.speak.ended",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "status": "completed"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.speak.ended',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      status: 'completed'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.speak.started",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.speak.started',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx'
+    },
+    record_type: 'event'
+  }
+}
+> // for Node 10:
+undefined
+> const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+Thrown:
+const { data: call } = await telnyx.calls.create({ connection_id: 'uuid', to: '+18005550199', from: '+18005550100' });
+                       ^^^^^
+
+SyntaxError: await is only valid in async function
+> call.transfer({ to: '+18005550101' });
+Thrown:
+ReferenceError: call is not defined
+>
+> // In other environments
+undefined
+> telnyx.calls.create(...).then(function(response){
+Thrown:
+telnyx.calls.create(...).then(function(response){
+                       ^
+
+SyntaxError: Unexpected token ')'
+>   const call = response.data;
+Thrown:
+SyntaxError: Identifier 'call' has already been declared
+>   call.transfer(...);
+Thrown:
+  call.transfer(...);
+                   ^
+
+SyntaxError: Unexpected token ')'
+...   "data": {
+.....     "result": "ok"
+.....   }
+... }
+{ data: { result: 'ok' } }
+...   "data": {
+.....     "event_type": "call.answered",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "state": "answered",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.answered',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      state: 'answered',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.bridged",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "state": "bridged",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.bridged',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      state: 'bridged',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.hangup",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "from": "+35319605860",
+.......       "hangup_cause": "call_rejected",
+.......       "hangup_source": "caller",
+.......       "sip_hangup_cause": "603",
+.......       "state": "hangup",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.hangup',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      from: '+35319605860',
+      hangup_cause: 'call_rejected',
+      hangup_source: 'caller',
+      sip_hangup_cause: '603',
+      state: 'hangup',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+...   "data": {
+.....     "event_type": "call.initiated",
+.....     "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+.....     "occurred_at": "2018-02-02T22:25:27.521992Z",
+.....     "payload": {
+.......       "call_control_id": "v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ",
+.......       "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+.......       "call_session_id": "428c31b6-abf3-3bc1-b7f4-5013ef9657c1",
+.......       "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+.......       "connection_id": "7267xxxxxxxxxxxxxx",
+.......       "direction": "incoming",
+.......       "from": "+35319605860",
+.......       "state": "parked",
+.......       "to": "+13129457420"
+.......     },
+.....     "record_type": "event"
+.....   }
+... }
+{
+  data: {
+    event_type: 'call.initiated',
+    id: '0ccc7b54-4df3-4bca-a65a-3da1ecc777f0',
+    occurred_at: '2018-02-02T22:25:27.521992Z',
+    payload: {
+      call_control_id: 'v2:T02llQxIyaRkhfRKxgAP8nY511EhFLizdvdUKJiSw8d6A9BborherQ',
+      call_leg_id: '428c31b6-7af4-4bcb-b7f5-5013ef9657c1',
+      call_session_id: '428c31b6-abf3-3bc1-b7f4-5013ef9657c1',
+      client_state: 'aGF2ZSBhIG5pY2UgZGF5ID1d',
+      connection_id: '7267xxxxxxxxxxxxxx',
+      direction: 'incoming',
+      from: '+35319605860',
+      state: 'parked',
+      to: '+13129457420'
+    },
+    record_type: 'event'
+  }
+}
+> // In Node 10
+undefined
+> const { data: billingGroupsList } = await telnyx.billingGroups.list({
+Thrown:
+const { data: billingGroupsList } = await telnyx.billingGroups.list({
+                                    ^^^^^
+
+SyntaxError: await is only valid in async function
+>   page: { size: 10 }
+10
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.billingGroups.list({
+...   page: { size: 10 }
+... }).then(function(response){
+...   const billingGroupsList = response.data; // asynchronously handled
+...   "data": [
+...     {
+.....       "created_at": "2019-10-15T10:07:15.527Z",
+.....       "deleted_at": null,
+.....       "id": "f5586561-8ff0-4291-a0ac-84fe544797bd",
+.....       "name": "My billing group name",
+.....       "organization_id": "f1486bae-f067-460c-ad43-73a92848f902",
+.....       "record_type": "billing_group",
+.....       "updated_at": "2019-10-15T10:07:15.527Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      created_at: '2019-10-15T10:07:15.527Z',
+      deleted_at: null,
+      id: 'f5586561-8ff0-4291-a0ac-84fe544797bd',
+      name: 'My billing group name',
+      organization_id: 'f1486bae-f067-460c-ad43-73a92848f902',
+      record_type: 'billing_group',
+      updated_at: '2019-10-15T10:07:15.527Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> // In Node 10
+undefined
+> const { data: billingGroup } = await telnyx.billingGroups.create({
+Thrown:
+const { data: billingGroup } = await telnyx.billingGroups.create({
+                               ^^^^^
+
+SyntaxError: await is only valid in async function
+>   name: "My billing group name"
+'My billing group name'
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.billingGroups.create({
+...   name: "My billing group name"
+... }).then(function(response){
+...   const billingGroup = response.data; // asynchronously handled
+... });
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": {
+.....     "created_at": "2019-10-15T10:07:15.527Z",
+.....     "deleted_at": null,
+.....     "id": "f5586561-8ff0-4291-a0ac-84fe544797bd",
+.....     "name": "My billing group name",
+.....     "organization_id": "f1486bae-f067-460c-ad43-73a92848f902",
+.....     "record_type": "billing_group",
+.....     "updated_at": "2019-10-15T10:07:15.527Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2019-10-15T10:07:15.527Z',
+    deleted_at: null,
+    id: 'f5586561-8ff0-4291-a0ac-84fe544797bd',
+    name: 'My billing group name',
+    organization_id: 'f1486bae-f067-460c-ad43-73a92848f902',
+    record_type: 'billing_group',
+    updated_at: '2019-10-15T10:07:15.527Z'
+  }
+}
+> // In Node 10
+undefined
+> const { data: billingGroup } = await telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+Thrown:
+const { data: billingGroup } = await telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+                               ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58").then(function(response){
+...   const billingGroup = response.data; // asynchronously handled
+>
+> {
+...   "data": {
+.....     "created_at": "2019-10-15T10:07:15.527Z",
+.....     "deleted_at": null,
+.....     "id": "f5586561-8ff0-4291-a0ac-84fe544797bd",
+.....     "name": "My billing group name",
+.....     "organization_id": "f1486bae-f067-460c-ad43-73a92848f902",
+.....     "record_type": "billing_group",
+.....     "updated_at": "2019-10-15T10:07:15.527Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2019-10-15T10:07:15.527Z',
+    deleted_at: null,
+    id: 'f5586561-8ff0-4291-a0ac-84fe544797bd',
+    name: 'My billing group name',
+    organization_id: 'f1486bae-f067-460c-ad43-73a92848f902',
+    record_type: 'billing_group',
+    updated_at: '2019-10-15T10:07:15.527Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // In Node 10
+undefined
+> const { data: billingGroup } = await telnyx.billingGroups.retrieve('uuid');
+Thrown:
+const { data: billingGroup } = await telnyx.billingGroups.retrieve('uuid');
+                               ^^^^^
+
+SyntaxError: await is only valid in async function
+> billingGroup.update({ name: "My new billing group name" });
+Thrown:
+ReferenceError: billingGroup is not defined
+>
+> // In other environments
+undefined
+> telnyx.billingGroups.retrieve('uuid').then(function(response){
+...   const billingGroup = response.data; // asynchronously handled
+...   billingGroup.update({ name: "My new billing group name" });
+... });
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": {
+.....     "created_at": "2019-10-15T10:07:15.527Z",
+.....     "deleted_at": null,
+.....     "id": "f5586561-8ff0-4291-a0ac-84fe544797bd",
+.....     "name": "My billing group name",
+.....     "organization_id": "f1486bae-f067-460c-ad43-73a92848f902",
+.....     "record_type": "billing_group",
+.....     "updated_at": "2019-10-15T10:07:15.527Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2019-10-15T10:07:15.527Z',
+    deleted_at: null,
+    id: 'f5586561-8ff0-4291-a0ac-84fe544797bd',
+    name: 'My billing group name',
+    organization_id: 'f1486bae-f067-460c-ad43-73a92848f902',
+    record_type: 'billing_group',
+    updated_at: '2019-10-15T10:07:15.527Z'
+  }
+}
+> // In Node 10
+undefined
+> const { data: billingGroup } = await telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+Thrown:
+const { data: billingGroup } = await telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+                               ^^^^^
+
+SyntaxError: await is only valid in async function
+> const {data: deletedBillingGroup } = await billingGroup.del();
+Thrown:
+const {data: deletedBillingGroup } = await billingGroup.del();
+                                     ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.billingGroups.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58").then(function(response){
+...   const billingGroup = response.data; // asynchronously handled
+...   billingGroup.del()
+...     .then((response) => {
+.....       const deletedBillingGroup = response.data;
+.....     });
+...   "data": {
+.....     "created_at": "2019-10-15T10:07:15.527Z",
+.....     "deleted_at": null,
+.....     "id": "f5586561-8ff0-4291-a0ac-84fe544797bd",
+.....     "name": "My billing group name",
+.....     "organization_id": "f1486bae-f067-460c-ad43-73a92848f902",
+.....     "record_type": "billing_group",
+.....     "updated_at": "2019-10-15T10:07:15.527Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2019-10-15T10:07:15.527Z',
+    deleted_at: null,
+    id: 'f5586561-8ff0-4291-a0ac-84fe544797bd',
+    name: 'My billing group name',
+    organization_id: 'f1486bae-f067-460c-ad43-73a92848f902',
+    record_type: 'billing_group',
+    updated_at: '2019-10-15T10:07:15.527Z'
+  }
+}
+> curl -X GET \
+Thrown:
+curl -X GET \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+> {
+...   "data": [
+...     {
+.....       "country_code": "US",
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "mcc": "310",
+.....       "mnc": "410",
+.....       "name": "AT&T Mobility (USACG)",
+.....       "record_type": "mobile_operator_network",
+.....       "tadig": "USACG"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      country_code: 'US',
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      mcc: '310',
+      mnc: '410',
+      name: 'AT&T Mobility (USACG)',
+      record_type: 'mobile_operator_network',
+      tadig: 'USACG'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> curl -X GET \
+Thrown:
+curl -X GET \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --globoff "https://api.telnyx.com/v2/ota_updates?page[number]=1&page[size]=20"
+Thrown:
+  --globoff "https://api.telnyx.com/v2/ota_updates?page[number]=1&page[size]=20"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+> {
+...   "data": [
+...     {
+.....       "created_at": "2018-02-02T22:25:27.521Z",
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "record_type": "ota_update",
+.....       "sim_card_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "status": "in-progress",
+.....       "type": "sim_card_network_preferences",
+.....       "updated_at": "2018-02-02T22:25:27.521Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      created_at: '2018-02-02T22:25:27.521Z',
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      record_type: 'ota_update',
+      sim_card_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      status: 'in-progress',
+      type: 'sim_card_network_preferences',
+      updated_at: '2018-02-02T22:25:27.521Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+> {
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "record_type": "ota_update",
+.....     "settings": {
+.......       "mobile_operator_networks_preferences": [
+.......         {
+.........           "mobile_operator_network_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.........           "mobile_operator_network_name": "AT&T Mobility (USACG)",
+.........           "priority": 0
+.........         }
+.......       ]
+.......     },
+.....     "sim_card_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "status": "in-progress",
+.....     "type": "sim_card_network_preferences",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    record_type: 'ota_update',
+    settings: { mobile_operator_networks_preferences: [Array] },
+    sim_card_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    status: 'in-progress',
+    type: 'sim_card_network_preferences',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+...   "data": [
+...     {
+.....       "created_at": "2018-02-02T22:25:27.521Z",
+.....       "end_time": "2018-02-02T22:25:27.521Z",
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "record_type": "detail_records_report",
+.....       "report_url": "http://example.com",
+.....       "start_time": "2018-02-02T22:25:27.521Z",
+.....       "status": "pending",
+.....       "updated_at": "2018-02-02T22:25:27.521Z"
+.....     }
+...   ]
+... }
+{
+  data: [
+    {
+      created_at: '2018-02-02T22:25:27.521Z',
+      end_time: '2018-02-02T22:25:27.521Z',
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      record_type: 'detail_records_report',
+      report_url: 'http://example.com',
+      start_time: '2018-02-02T22:25:27.521Z',
+      status: 'pending',
+      updated_at: '2018-02-02T22:25:27.521Z'
+    }
+  ]
+}
+> curl -X POST \
+Thrown:
+curl -X POST \
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{"end_time":"2018-02-02T22:25:27.521Z","start_time":"2018-02-02T22:25:27.521Z"}' \
+Thrown:
+  --data '{"end_time":"2018-02-02T22:25:27.521Z","start_time":"2018-02-02T22:25:27.521Z"}' \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/wireless/detail_records_reports
+... {
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "created_at": "2018-02-02T22:25:27.521Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "end_time": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "end_time": "2018-02-02T22:25:27.521Z",
+              ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+Thrown:
+    "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "record_type": "detail_records_report",
+Thrown:
+    "record_type": "detail_records_report",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "report_url": "http://example.com",
+Thrown:
+    "report_url": "http://example.com",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "start_time": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "start_time": "2018-02-02T22:25:27.521Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "status": "pending",
+Thrown:
+    "status": "pending",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "updated_at": "2018-02-02T22:25:27.521Z"
+Thrown:
+    "updated_at": "2018-02-02T22:25:27.521Z"
+                ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }
+Thrown:
+}
+^
+
+SyntaxError: Unexpected token '}'
+> curl -X GET \
+Thrown:
+curl -X GET \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --globoff "https://api.telnyx.com/v2/wireless/detail_records_reports/6a09cdc3-8948-47f0-aa62-74ac943d6c58"
+Thrown:
+  --globoff "https://api.telnyx.com/v2/wireless/detail_records_reports/6a09cdc3-8948-47f0-aa62-74ac943d6c58"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "end_time": "2018-02-02T22:25:27.521Z",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "record_type": "detail_records_report",
+.....     "report_url": "http://example.com",
+.....     "start_time": "2018-02-02T22:25:27.521Z",
+.....     "status": "pending",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    end_time: '2018-02-02T22:25:27.521Z',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    record_type: 'detail_records_report',
+    report_url: 'http://example.com',
+    start_time: '2018-02-02T22:25:27.521Z',
+    status: 'pending',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected stringfier
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+> {
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "end_time": "2018-02-02T22:25:27.521Z",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "record_type": "detail_records_report",
+.....     "report_url": "http://example.com",
+.....     "start_time": "2018-02-02T22:25:27.521Z",
+.....     "status": "pending",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    end_time: '2018-02-02T22:25:27.521Z',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    record_type: 'detail_records_report',
+    report_url: 'http://example.com',
+    start_time: '2018-02-02T22:25:27.521Z',
+    status: 'pending',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data } = await telnyx.simCardGroups.list({"page[number]":1,"page[size]":20});
+Thrown:
+const { data } = await telnyx.simCardGroups.list({"page[number]":1,"page[size]":20});
+                 ^^^^^
+
+SyntaxError: await is only valid in async function
+> {
+...   "data": [
+...     {
+.....       "consumed_data": {
+.......         "amount": 10,
+.......         "unit": "B"
+.......       },
+.....       "created_at": "2018-02-02T22:25:27.521Z",
+.....       "data_enabled": true,
+.....       "data_limit": 2048,
+.....       "default": true,
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "name": "My Test Group",
+.....       "record_type": "sim_card_group",
+.....       "updated_at": "2018-02-02T22:25:27.521Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      consumed_data: [Object],
+      created_at: '2018-02-02T22:25:27.521Z',
+      data_enabled: true,
+      data_limit: 2048,
+      default: true,
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      name: 'My Test Group',
+      record_type: 'sim_card_group',
+      updated_at: '2018-02-02T22:25:27.521Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+>
+> const { data: simCardGroups } = await telnyx.simCardGroups.create(
+Thrown:rror: Identifier 'telnyx' has already been declared
+const { data: simCardGroups } = await telnyx.simCardGroups.create(
+                                ^^^^^
+
+SyntaxError: await is only valid in async function
+>   {"name":"My Test Group","data_enabled":true}
+{ name: 'My Test Group', data_enabled: true }
+> );
+Thrown:
+);
+^
+
+SyntaxError: Unexpected token ')'
+...   "data": {
+.....     "consumed_data": {
+.......       "amount": 10,
+.......       "unit": "B"
+.......     },
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "data_enabled": true,
+.....     "data_limit": 2048,
+.....     "default": true,
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "name": "My Test Group",
+.....     "record_type": "sim_card_group",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    consumed_data: { amount: 10, unit: 'B' },
+    created_at: '2018-02-02T22:25:27.521Z',
+    data_enabled: true,
+    data_limit: 2048,
+    default: true,
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    name: 'My Test Group',
+    record_type: 'sim_card_group',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data } = await telnyx.simCardGroups.retrieve("id");
+Thrown:
+const { data } = await telnyx.simCardGroups.retrieve("id");
+                 ^^^^^
+
+SyntaxError: await is only valid in async function
+> {
+...   "data": {
+.....     "consumed_data": {
+.......       "amount": 10,
+.......       "unit": "B"
+.......     },
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "data_enabled": true,
+.....     "data_limit": 2048,
+.....     "default": true,
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "name": "My Test Group",
+.....     "record_type": "sim_card_group",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    consumed_data: { amount: 10, unit: 'B' },
+    created_at: '2018-02-02T22:25:27.521Z',
+    data_enabled: true,
+    data_limit: 2048,
+    default: true,
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    name: 'My Test Group',
+    record_type: 'sim_card_group',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data: simCardGroups } = await telnyx.simCardGroups.retrieve("id");
+Thrown:
+const { data: simCardGroups } = await telnyx.simCardGroups.retrieve("id");
+                                ^^^^^
+
+SyntaxError: await is only valid in async function
+> await simCardGroups.update({"data_enabled":true,"data_limit":2048});
+Thrown:
+await simCardGroups.update({"data_enabled":true,"data_limit":2048});
+^^^^^
+
+SyntaxError: await is only valid in async function
+> {
+...   "data": {
+.....     "consumed_data": {
+.......       "amount": 10,
+.......       "unit": "B"
+.......     },
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "data_enabled": true,
+.....     "data_limit": 2048,
+.....     "default": true,
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "name": "My Test Group",
+.....     "record_type": "sim_card_group",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    consumed_data: { amount: 10, unit: 'B' },
+    created_at: '2018-02-02T22:25:27.521Z',
+    data_enabled: true,
+    data_limit: 2048,
+    default: true,
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    name: 'My Test Group',
+    record_type: 'sim_card_group',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data: simCardGroups } = await telnyx.simCardGroups.retrieve("id");
+Thrown:
+const { data: simCardGroups } = await telnyx.simCardGroups.retrieve("id");
+                                ^^^^^
+
+SyntaxError: await is only valid in async function
+> await simCardGroups.del();
+Thrown:
+await simCardGroups.del();
+^^^^^
+
+SyntaxError: await is only valid in async function
+> {
+...   "data": {
+.....     "consumed_data": {
+.......       "amount": 10,
+.......       "unit": "B"
+.......     },
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "data_enabled": true,
+.....     "data_limit": 2048,
+.....     "default": true,
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "name": "My Test Group",
+.....     "record_type": "sim_card_group",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    consumed_data: { amount: 10, unit: 'B' },
+    created_at: '2018-02-02T22:25:27.521Z',
+    data_enabled: true,
+    data_limit: 2048,
+    default: true,
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    name: 'My Test Group',
+    record_type: 'sim_card_group',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // In Node 10
+undefined
+> const { data: simCardList } = await telnyx.simCards.list({
+Thrown:
+const { data: simCardList } = await telnyx.simCards.list({
+                              ^^^^^
+
+SyntaxError: await is only valid in async function
+>   filter: { tags: ["region_5", "ext_cards"] },
+Thrown:
+  filter: { tags: ["region_5", "ext_cards"] },
+                                             ^
+
+SyntaxError: Unexpected token ','
+>   page: { size: 10 }
+10
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.simCards.list({
+...   filter: { tags: ["region_5", "ext_cards"] },
+...   page: { size: 10 }
+... }).then(function(response){
+...   const simCardList = response.data; // asynchronously handled
+... });
+Thrown:
+ReferenceError: telnyx is not defined
+> {
+...   "data": [
+...     {
+.....       "created_at": "2018-02-02T22:25:27.521Z",
+.....       "iccid": "89310410106543789301",
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "imsi": 81932214823362980,
+.....       "msisdn": "+13109976224",
+.....       "record_type": "sim_card",
+.....       "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "status": "enabled",
+.....       "tags": [
+.....         "personal",
+.....         "customers",
+.....         "active-customers"
+.....       ],
+.....       "updated_at": "2018-02-02T22:25:27.521Z"
+.....     }
+...   ],
+...   "meta": {
+.....     "page_number": 2,
+.....     "page_size": 25,
+.....     "total_pages": 3,
+.....     "total_results": 55
+.....   }
+... }
+{
+  data: [
+    {
+      created_at: '2018-02-02T22:25:27.521Z',
+      iccid: '89310410106543789301',
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      imsi: 81932214823362980,
+      msisdn: '+13109976224',
+      record_type: 'sim_card',
+      sim_card_group_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      status: 'enabled',
+      tags: [Array],
+      updated_at: '2018-02-02T22:25:27.521Z'
+    }
+  ],
+  meta: { page_number: 2, page_size: 25, total_pages: 3, total_results: 55 }
+}
+> // In Node 10
+undefined
+> const { data: simCard } = await telnyx.simCards.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+Thrown:
+const { data: simCard } = await telnyx.simCards.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58");
+                          ^^^^^
+
+SyntaxError: await is only valid in async function
+>
+> // In other environments
+undefined
+> telnyx.simCards.retrieve("6a09cdc3-8948-47f0-aa62-74ac943d6c58").then(function(response){
+...   const simCard = response.data; // asynchronously handled
+> {
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "iccid": "89310410106543789301",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "imsi": 81932214823362980,
+.....     "ipv4": "192.168.0.0",
+.....     "ipv6": "2001:cdba:0000:0000:0000:0000:3257:9652",
+.....     "msisdn": "+13109976224",
+.....     "record_type": "sim_card",
+.....     "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "status": "enabled",
+.....     "tags": [
+.....       "personal",
+.....       "customers",
+.....       "active-customers"
+.....     ],
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    iccid: '89310410106543789301',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    imsi: 81932214823362980,
+    ipv4: '192.168.0.0',
+    ipv6: '2001:cdba:0000:0000:0000:0000:3257:9652',
+    msisdn: '+13109976224',
+    record_type: 'sim_card',
+    sim_card_group_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    status: 'enabled',
+    tags: [ 'personal', 'customers', 'active-customers' ],
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+> // In Node 10
+undefined
+> const { data: simCard } = await telnyx.simCards.update(
+Thrown:
+const { data: simCard } = await telnyx.simCards.update(
+                          ^^^^^
+
+SyntaxError: await is only valid in async function
+>   "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+...   { tags: ['region_7', 'int_cards'] }
+{ tags: [ 'region_7', 'int_cards' ] }
+> );
+Thrown:
+);
+^
+
+SyntaxError: Unexpected token ')'
+>
+> // In other environments
+undefined
+> telnyx.simCards.update(
+...   '6a09cdc3-8948-47f0-aa62-74ac943d6c58'
+...   { tags: ['region_7', 'int_cards'] }
+Thrown:
+  '6a09cdc3-8948-47f0-aa62-74ac943d6c58'
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+> ).then(function(response){
+Thrown:
+).then(function(response){
+^
+
+SyntaxError: Unexpected token ')'
+>   const simCard = response.data; // asynchronously handled
+Thrown:
+ReferenceError: response is not defined
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+> {
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "iccid": "89310410106543789301",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "imsi": 81932214823362980,
+.....     "ipv4": "192.168.0.0",
+.....     "ipv6": "2001:cdba:0000:0000:0000:0000:3257:9652",
+.....     "msisdn": "+13109976224",
+.....     "record_type": "sim_card",
+.....     "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "status": "enabled",
+.....     "tags": [
+.....       "personal",
+.....       "customers",
+.....       "active-customers"
+.....     ],
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    iccid: '89310410106543789301',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    imsi: 81932214823362980,
+    ipv4: '192.168.0.0',
+    ipv6: '2001:cdba:0000:0000:0000:0000:3257:9652',
+    msisdn: '+13109976224',
+    record_type: 'sim_card',
+    sim_card_group_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    status: 'enabled',
+    tags: [ 'personal', 'customers', 'active-customers' ],
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+SyntaxError: Identifier 'telnyx' has already been declared
+>
+> const { data: simCards } = await telnyx.simCards.retrieve("id");
+Thrown:
+const { data: simCards } = await telnyx.simCards.retrieve("id");
+                           ^^^^^
+
+SyntaxError: await is only valid in async function
+> await simCards.del();
+Thrown:
+await simCards.del();
+^^^^^
+
+SyntaxError: await is only valid in async function
+> {
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "iccid": "89310410106543789301",
+.....     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "imsi": 81932214823362980,
+.....     "ipv4": "192.168.0.0",
+.....     "ipv6": "2001:cdba:0000:0000:0000:0000:3257:9652",
+.....     "msisdn": "+13109976224",
+.....     "record_type": "sim_card",
+.....     "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....     "status": "enabled",
+.....     "tags": [
+.....       "personal",
+.....       "customers",
+.....       "active-customers"
+.....     ],
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    iccid: '89310410106543789301',
+    id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    imsi: 81932214823362980,
+    ipv4: '192.168.0.0',
+    ipv6: '2001:cdba:0000:0000:0000:0000:3257:9652',
+    msisdn: '+13109976224',
+    record_type: 'sim_card',
+    sim_card_group_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+    status: 'enabled',
+    tags: [ 'personal', 'customers', 'active-customers' ],
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> curl -X POST \
+Thrown:
+curl -X POST \
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{}' \
+Thrown:
+  --data '{}' \
+         ^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/actions/enable
+...
+... curl -X POST \
+Thrown:
+curl -X POST \
+        ^^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{}' \
+Thrown:
+  --data '{}' \
+         ^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/actions/enable
+... {
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "created_at": "2018-02-02T22:25:27.521Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "iccid": "89310410106543789301",
+Thrown:
+    "iccid": "89310410106543789301",
+           ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+Thrown:
+    "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "imsi": 81932214823362980,
+Thrown:
+    "imsi": 81932214823362980,
+          ^
+
+SyntaxError: Unexpected token ':'
+>     "msisdn": "+13109976224",
+Thrown:
+    "msisdn": "+13109976224",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "record_type": "sim_card",
+Thrown:
+    "record_type": "sim_card",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+Thrown:
+    "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>     "status": "enabled",
+Thrown:
+    "status": "enabled",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "tags": [
+Thrown:
+    "tags": [
+          ^
+
+SyntaxError: Unexpected token ':'
+>       "personal",
+...       "customers",
+...       "active-customers"
+'active-customers'
+>     ],
+Thrown:
+    ],
+    ^
+
+SyntaxError: Unexpected token ']'
+>     "updated_at": "2018-02-02T22:25:27.521Z"
+Thrown:
+    "updated_at": "2018-02-02T22:25:27.521Z"
+                ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }curl -X POST \
+Thrown:
+}curl -X POST \
+^
+
+SyntaxError: Unexpected token '}'
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{}' \
+Thrown:
+  --data '{}' \
+         ^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/actions/disable
+... {
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "created_at": "2018-02-02T22:25:27.521Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "iccid": "89310410106543789301",
+Thrown:
+    "iccid": "89310410106543789301",
+           ^
+
+SyntaxError: Unexpected token ':'
+>     "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+Thrown:
+    "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "imsi": 81932214823362980,
+Thrown:
+    "imsi": 81932214823362980,
+          ^
+
+SyntaxError: Unexpected token ':'
+>     "msisdn": "+13109976224",
+Thrown:
+    "msisdn": "+13109976224",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "record_type": "sim_card",
+Thrown:
+    "record_type": "sim_card",
+                 ^
+
+SyntaxError: Unexpected token ':'
+>     "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+Thrown:
+    "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+                       ^
+
+SyntaxError: Unexpected token ':'
+>     "status": "enabled",
+Thrown:
+    "status": "enabled",
+            ^
+
+SyntaxError: Unexpected token ':'
+>     "tags": [
+Thrown:
+    "tags": [
+          ^
+
+SyntaxError: Unexpected token ':'
+>       "personal",
+...       "customers",
+...       "active-customers"
+'active-customers'
+>     ],
+Thrown:
+    ],
+    ^
+
+SyntaxError: Unexpected token ']'
+>     "updated_at": "2018-02-02T22:25:27.521Z"
+Thrown:
+    "updated_at": "2018-02-02T22:25:27.521Z"
+                ^
+
+SyntaxError: Unexpected token ':'
+>   }
+Thrown:
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+> }const telnyx = require('telnyx')('YOUR_API_KEY');
+Thrown:
+}const telnyx = require('telnyx')('YOUR_API_KEY');
+^
+
+SyntaxError: Unexpected token '}'
+> // In Node 10
+undefined
+> { data: simCardList } = await telnyx.actions.simCards.register({
+Thrown:
+{ data: simCardList } = await telnyx.actions.simCards.register({
+                      ^
+
+SyntaxError: Unexpected token '='
+>   registration_codes: ["1234567890, 123456332601"]
+[ '1234567890, 123456332601' ]
+> });
+Thrown:
+});
+^
+
+SyntaxError: Unexpected token '}'
+>
+> // In other environments
+undefined
+> telnyx.actions.simCards.register({
+...   registration_codes: ["1234567890, 123456332601"]
+... }).then(function(response){
+...   const simCardList = response.data; // asynchronously handled
+... });
+Thrown:
+ReferenceError: telnyx is not defined
+...   "data": [
+...     {
+.....       "created_at": "2018-02-02T22:25:27.521Z",
+.....       "iccid": "89310410106543789301",
+.....       "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "imsi": 81932214823362980,
+.....       "msisdn": "+13109976224",
+.....       "record_type": "sim_card",
+.....       "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.....       "status": "enabled",
+.....       "tags": [
+.....         "personal",
+.....         "customers",
+.....         "active-customers"
+.....       ],
+.....       "updated_at": "2018-02-02T22:25:27.521Z"
+.....     }
+...   ]
+... }
+{
+  data: [
+    {
+      created_at: '2018-02-02T22:25:27.521Z',
+      iccid: '89310410106543789301',
+      id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      imsi: 81932214823362980,
+      msisdn: '+13109976224',
+      record_type: 'sim_card',
+      sim_card_group_id: '6a09cdc3-8948-47f0-aa62-74ac943d6c58',
+      status: 'enabled',
+      tags: [Array],
+      updated_at: '2018-02-02T22:25:27.521Z'
+    }
+  ]
+}
+> curl -X GET \
+Thrown:
+curl -X GET \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --globoff "https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/network_preferences?include_ota_updates=true"
+Thrown:
+  --globoff "https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/network_preferences?include_ota_updates=true"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+...   "data": {
+.....     "created_at": "2018-02-02T22:25:27.521Z",
+.....     "mobile_operator_networks_preferences": [
+.....       {
+.......         "mobile_operator_network_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.......         "mobile_operator_network_name": "AT&T Mobility (USACG)",
+.......         "priority": 0
+.......       }
+.....     ],
+.....     "ota_updates": [
+.....       {
+.......         "created_at": "2018-02-02T22:25:27.521Z",
+.......         "id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.......         "record_type": "ota_update",
+.......         "settings": {
+.........           "mobile_operator_networks_preferences": [
+.........             {
+...........               "mobile_operator_network_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+...........               "mobile_operator_network_name": "AT&T Mobility (USACG)",
+...........               "priority": 0
+...........             }
+.........           ]
+.........         },
+.......         "sim_card_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+.......         "status": "in-progress",
+.......         "type": "sim_card_network_preferences",
+.......         "updated_at": "2018-02-02T22:25:27.521Z"
+.......       }
+.....     ],
+.....     "record_type": "sim_card_network_preferences",
+.....     "sim_card_id": "6b14e151-8493-4fa1-8664-1cc4e6d14158",
+.....     "updated_at": "2018-02-02T22:25:27.521Z"
+.....   }
+... }
+{
+  data: {
+    created_at: '2018-02-02T22:25:27.521Z',
+    mobile_operator_networks_preferences: [ [Object] ],
+    ota_updates: [ [Object] ],
+    record_type: 'sim_card_network_preferences',
+    sim_card_id: '6b14e151-8493-4fa1-8664-1cc4e6d14158',
+    updated_at: '2018-02-02T22:25:27.521Z'
+  }
+}
+> curl -X PUT \
+Thrown:
+curl -X PUT \
+        ^^^
+
+SyntaxError: Unexpected identifier
+>   --header "Content-Type: application/json" \
+Thrown:
+  --header "Content-Type: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Accept: application/json" \
+Thrown:
+  --header "Accept: application/json" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --header "Authorization: Bearer YOUR_API_KEY" \
+Thrown:
+  --header "Authorization: Bearer YOUR_API_KEY" \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   --data '{"mobile_operator_networks_preferences":"array"}' \
+Thrown:
+  --data '{"mobile_operator_networks_preferences":"array"}' \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+>   https://api.telnyx.com/v2/sim_cards/6a09cdc3-8948-47f0-aa62-74ac943d6c58/network_preferences
+... {
+...   "data": {
+Thrown:
+  "data": {
+        ^
+
+SyntaxError: Unexpected token ':'
+>     "created_at": "2018-02-02T22:25:27.521Z",
+Thrown:
+    "created_at": "2018-02-02T22:25:27.521Z",
+                ^
+
+SyntaxError: Unexpected token ':'
+>     "mobile_operator_networks_preferences": [
+Thrown:
+    "mobile_operator_networks_preferences": [
+                                          ^
+
+SyntaxError: Unexpected token ':'
+>       {
+...         "mobile_operator_network_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+...         "mobile_operator_network_name": "AT&T Mobility (USACG)",
+...         "priority": 0
+...       }
