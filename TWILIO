@@ -13,10 +13,10 @@ $token  = "4a48ef16988eca378188b06fd8d433e0";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
-                  ->create("+15558675310", // to
+                  ->create("++41765203630", // to
                            [
                                "body" => "This will be the body of the new message!",
-                               "from" => "+15017122661"
+                               "from" => "+17708008448"
                            ]
                   );
 
